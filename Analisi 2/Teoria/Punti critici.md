@@ -1,0 +1,2 @@
+Un punto critico per una funzione $f: \mathbb{R}^2\to\mathbb{R}$ è un punto $(x_0, y_0)$ in cui il gradiente è nullo, ovvero entrambe le derivate parziali prime valgono $0$.
+Per determinare se un punto critico è [[Minimi e massimi locali|massimo o minimo]] utilizzo il [[Test dell'Hessiana|test dell'Hessiana]].

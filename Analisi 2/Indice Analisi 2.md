@@ -1,0 +1,21 @@
+Argomenti teoria:
+- [[Serie di potenze]]
+- [[Serie di Fourier]]
+	- [[Convergenza in media quadratica]]
+	- [[Teoremi sulla convergenza puntuale]]
+- [[Curve]]
+- [[Minimi e massimi locali]]
+- [[Punti critici]]
+- [[Test dell'Hessiana]]
+- [[Teorema della formula del gradiente]]
+- [[Derivate direzionali]]
+- [[Integrale di linea]]
+- [[Analisi 2/Teoria/Teorema di Fermat|Teorema di Fermat]]
+- [[Differenziabilità]]
+
+Formule per esercizi:
+- [[Formule integrali]]
+- [[Risoluzione sistema]]
+- [[Studio stabilità sistemi]]
+- [[Piano delle fasi di un sistema]]
+- [[Piano tangente a una funzione]]

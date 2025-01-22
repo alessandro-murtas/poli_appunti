@@ -1,0 +1,2 @@
+Se una funzione $f:\mathbb{R}^2\to\mathbb{R}$ è [[Differenziabilità|differenziabile]] in $(x_0,y_0)$ allora esiste un piano $z$ tangente al grafico di $f$ e lo determino usando questa formula:
+$$z=f(x_0,y_0)+\nabla f(x_0,y_0)\cdot(x-x_0,y-y_0)$$

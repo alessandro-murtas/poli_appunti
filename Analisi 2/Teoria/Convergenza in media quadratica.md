@@ -1,0 +1,1 @@
+Una [[Serie di Fourier|serie di Fourier]] converge in media quadratica quando la distanza quadratica media tra la funzione e le somme parziali tende a zero quando il numero di termini $N$ nella somma cresce indefinitamente.
