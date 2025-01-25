@@ -5,8 +5,8 @@ Qui, $x(t), y(t), ...$ sono funzioni reali che descrivono le coordinate del punt
 Una curva $\underline{r}(t)$ è detta regolare se la sua derivata $\underline{r}'(t)$ esiste, è continua su $I$ e non si annulla per nessun punto dell'intervallo $I$
 $$\underline{r}'(t) = (x'(t), y'(t),...) \neq 0\;\; \forall t \in I$$
 ## Curva regolare a tratti
-Una curva $\underline{r}(t)$ è detta regolare a tratti se può essere suddivisa in un numero finito di sottodomini, ed in ciascuno di essi è regolare.
-In altre parole, la sua derivata $\underline{r}'(t)$ ha un numero finito di punti di discontinuità, ma su ciascun tratto rimane regolare.
+Una curva regolare a tratti è $\underline{r}:I\subseteq\mathbb{R}\to\mathbb{R}^n$ continua tale che esiste un numero finito $m$ di intervalli $I_i$ dove $\underline{r}$ è regolare e $I=\underset{i=1}{\overset{m}{\cup}}I_i$
+In altre parole una curva regolare a tratti è una curva continua unione di curve regolari.
 Un esempio può essere la seguente curva:
 $$\underline{r}(t) =
 \begin{cases}
