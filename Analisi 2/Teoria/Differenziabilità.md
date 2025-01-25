@@ -1,6 +1,8 @@
 ## Definizione in $\mathbb{R}^2$
 Sia $f: \mathbb{R}^2 \to \mathbb{R}$, dico che $f$ è **differenziabile** in $(x_0, y_0)$ se
-$$\exists\; \underline{a} = (a_1, a_2) \in \mathbb{R}^2: \lim_{(x,y)\to(0,0)} \frac{f(x,y) - f(x_0, y_0) - a_1(x-x_0) -a_2(y-y_0)}{\sqrt{(x-x_0)^2 +(y-y_0)^2}} = 0$$
+$$\exists\; \underline{a} = (a_1, a_2) \in \mathbb{R}^2: \lim_{(x,y)\to(0,0)} \frac{f(x_0+x,y_0+y) - f(x_0, y_0) - a_1x -a_2y}{\sqrt{x^2+y^2}} = 0$$
+Oppure
+$$\exists\; \underline{a} = (a_1, a_2) \in \mathbb{R}^2: \lim_{(x,y)\to(x_0,y_0)} \frac{f(x,y) - f(x_0, y_0) - a_1x -a_2y}{\sqrt{(x-x_0)^2+(y-y_0)^2}} = 0$$
 ## Definizione in $\mathbb{R}^n$
 Sia $f: \mathbb{R}^n \to \mathbb{R}$, dico che $f$ è **differenziabile** in $\underline{x_0}$ se
 $$\exists\; \underline{a} \in \mathbb{R}^n: \lim_{\underline{x}\to\underline{x_0}} \frac{f(\underline{x}) - f(\underline{x_0}) - \underline{a}\cdot (\underline{x}-\underline{x_0})}{|\underline{x} - \underline{x_0}|} = 0$$

@@ -6,10 +6,10 @@ Una curva $\underline{r}(t)$ è detta regolare se la sua derivata $\underline{r}
 $$\underline{r}'(t) = (x'(t), y'(t),...) \neq 0\;\; \forall t \in I$$
 ## Curva regolare a tratti
 Una curva $\underline{r}(t)$ è detta regolare a tratti se può essere suddivisa in un numero finito di sottodomini, ed in ciascuno di essi è regolare.
-In altre parole, ha un numero finito di punti di discontinuità, ma su ciascun tratto rimane regolare.
+In altre parole, la sua derivata $\underline{r}'(t)$ ha un numero finito di punti di discontinuità, ma su ciascun tratto rimane regolare.
 Un esempio può essere la seguente curva:
 $$\underline{r}(t) =
 \begin{cases}
-(t,t^2,t^3) &\text{ se } t \in [0,1] \\
+(t,2t^2,2t^3) &\text{ se } t \in [0,1] \\
 (1,1+t,1+t^2) &\text{ se } t \in (1,2]
 \end{cases}$$
