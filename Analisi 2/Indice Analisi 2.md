@@ -19,3 +19,4 @@ Formule per esercizi:
 - [[Studio stabilità sistemi]]
 - [[Piano delle fasi di un sistema]]
 - [[Piano tangente a una funzione]]
+- [[Risoluzione equazioni differenziali]]
