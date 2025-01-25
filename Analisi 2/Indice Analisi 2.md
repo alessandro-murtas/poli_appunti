@@ -4,7 +4,7 @@ Argomenti teoria:
 	- [[Convergenza in media quadratica]]
 	- [[Teoremi sulla convergenza puntuale]]
 - [[Curve]]
-- [[Minimi e massimi locali]]
+- [[Massimi e minimi]]
 - [[Punti critici]]
 - [[Test dell'Hessiana]]
 - [[Teorema della formula del gradiente]]
