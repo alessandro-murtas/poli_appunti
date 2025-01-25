@@ -1,4 +1,4 @@
-Sia $\underline{r}(t)$ una parametrizzazione di una [[Curve|curva]] $C$ nello spazio, definita per $t \in [a,b]$, e sia $f(\underline{r}(t))$ una funzione scalare definita lungo $C$.
-L'**integrale di linea di prima specie** è definito come
-$$\int_Cf(\underline{r})ds=\int_a^bf(\underline{r}(t))\cdot|\underline{r}'(t)|dt$$
+Sia $\gamma$ una [[Curve#Curva regolare|curva regolare]] di parametrizzazione $\underline{r}:[a,b]\to\mathbb{R}^n$ e sia $f:A\subseteq\mathbb{R}^n\to\mathbb{R}$ con $\underline{r}([a,b])\subseteq A$
+Definisco **integrale di linea di prima specie**
+$$\int_\gamma f ds=\int_a^bf(\underline{r}(t))\cdot|\underline{r}'(t)|dt$$
 Per le applicazioni geometriche vedere [[Formule integrali|qui]].
