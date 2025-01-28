@@ -2,6 +2,10 @@
 Una curva in forma parametrica in $\mathbb{R}^n$ è una funzione $\underline{r}: I \to \mathbb{R}^n$ definita su un intervallo $I \subseteq \mathbb{R}$ che associa ad ogni parametro $t \in I$ un punto $\underline{r}(t) = (x(t), y(t), ...) \in \mathbb{R}^n$.
 Qui, $x(t), y(t), ...$ sono funzioni reali che descrivono le coordinate del punto in funzione del parametro $t$.
 ## Curva regolare
+Una curva regolare è $\underline{r}:I\subseteq\mathbb{R}\to\mathbb{R}^n:$
+$$ \underline{r}\in C^1(I)\;\land\;\underline{r}'(t)\neq\underline{0}\;\;\;\forall t\in I$$
+Un esempio è la seguente curva:
+$$\underline r(t)=(\cos t,\sin t, t)$$
 Una curva $\underline{r}(t)$ è detta regolare se la sua derivata $\underline{r}'(t)$ esiste, è continua su $I$ e non si annulla per nessun punto dell'intervallo $I$
 $$\underline{r}'(t) = (x'(t), y'(t),...) \neq 0\;\; \forall t \in I$$
 ## Curva regolare a tratti
