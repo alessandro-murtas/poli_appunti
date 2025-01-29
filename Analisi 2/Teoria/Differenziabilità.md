@@ -12,7 +12,7 @@ Per trovare questo piano tangente, vedere [[Piano tangente a una funzione|qui]].
 
 ## Condizione sufficiente per differenziabilità
 Sia $f: A \subseteq \mathbb{R}^n \to \mathbb{R}$, $A$ aperto, $\underline{x_0} \in A$.
-Se $\exists\; U_\pi(\underline{x_0}): \forall \underline{x} \in U_\pi(\underline{x_0}) \;f$ è derivabile in $\underline{x}$ e le derivate parziali sono continue in $x_0 \implies f$ è differenziabile in $\underline{x_0}$.
+Se $\exists\; U_\pi(\underline{x_0}): \forall \underline{x} \in U_\pi(\underline{x_0}) \;f$ è derivabile in $\underline{x}$ e le derivate parziali sono continue in $\underline{x_0} \implies f$ è differenziabile in $\underline{x_0}$.
 In particolare se $f \in C^1(A) \implies f$ è differenziabile in $A$.
 **Non è condizione necessaria**.
 
