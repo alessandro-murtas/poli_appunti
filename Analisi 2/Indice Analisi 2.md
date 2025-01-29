@@ -12,6 +12,7 @@ Argomenti teoria:
 - [[Integrale di linea]]
 - [[Analisi 2/Teoria/Teorema di Fermat|Teorema di Fermat]]
 - [[Differenziabilità]]
+- [[Soluzioni di un sistema di equazioni differenziali]]
 
 Formule per esercizi:
 - [[Formule integrali]]
