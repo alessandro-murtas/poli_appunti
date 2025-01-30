@@ -24,7 +24,7 @@ $f$ derivabile in un $U_\pi (x_0, y_0)$ e $\delta xf(x,y),\delta yf(x,y)$ sono c
 $$f(x_0+h, y_0+h) - f(x_0, y_0) = \delta xf(x_0,y_0)h + \delta yf(x_0, y_0)k + o\left(\sqrt{h^2 + k^2}\right)$$
 Incremento una variabile alla volta:
 $$f(x_0+h, y_0+k) - f(x_0, y_0) = f(x_0+h, y_0+k) - f(x_0+h, y_0) + f(x_0+h, y_0) - f(x_0, y_0)$$
-Studiando $A = f(x_0+h, y_0+k) - f(x_0+h, y_0)$ mi apparirà il contributo di $\delta yf$, studiando $B = f(x_0+h, y_0) - f(x_0, y_0)$ mi apparirà $\delta yf$.
+Studiando $A = f(x_0+h, y_0+k) - f(x_0+h, y_0)$ mi apparirà il contributo di $\delta yf$, studiando $B = f(x_0+h, y_0) - f(x_0, y_0)$ mi apparirà $\delta xf$.
 Quindi grazie al [[Lagrange|teorema di Lagrange]]:
 $$A = g_2'(y_0 + \delta_2k)k; \;\delta_2(h, k)\in(0,1)$$
 $$B = g_1'(x_0 + \delta_1h)h; \;\delta_1(h, k)\in(0,1)$$
