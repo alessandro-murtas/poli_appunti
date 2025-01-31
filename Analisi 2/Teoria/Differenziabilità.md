@@ -35,7 +35,7 @@ $$\delta xf(x_0+\delta_1h,y_0) = \delta xf(x_0, y_0) + \varepsilon_1(h)$$
 $$\delta yf(x_0+h,y_0+\delta_2h) = \delta yf(x_0, y_0) + \varepsilon_2(h,k)$$
 $\varepsilon_1(h)$ e $\varepsilon_2(h,k) \to 0$ se $(h,k)\to(0,0) \implies B + A = \delta xf(x_0,y_0)h + \delta yf(x_0,y_0)k + E(h,k)$
 Con $E(h,k) = \varepsilon_1(h)h + \varepsilon_2(h, k)k$, se $E(h,k)=o\left(\sqrt{h^2+k^2}\right)$ abbiamo completato la dimostrazione.
-$$\left|\frac{E(h,k)}{\sqrt{h^2+k^2}}\right| \leq \left|\frac{\varepsilon_1(h)h + \varepsilon_2(h, k)k}{\sqrt{h^2+k^2}}\right| \leq \frac{|\varepsilon_1(h)||h|+|\varepsilon_2(h,k)||k|}{\sqrt{h^2+k^2}} \leq |\varepsilon_1(h)| + |\varepsilon_2(h,k)| \to 0 \text{ per } (h,k)\to (0,0)$$
+$$\left|\frac{E(h,k)}{\sqrt{h^2+k^2}}\right| = \left|\frac{\varepsilon_1(h)h + \varepsilon_2(h, k)k}{\sqrt{h^2+k^2}}\right| \leq \frac{|\varepsilon_1(h)||h|+|\varepsilon_2(h,k)||k|}{\sqrt{h^2+k^2}} \leq |\varepsilon_1(h)| + |\varepsilon_2(h,k)| \to 0 \text{ per } (h,k)\to (0,0)$$
 C.V.D.
 
 ## Condizioni necessarie per la differenziabilità
