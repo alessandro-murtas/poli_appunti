@@ -1,7 +1,7 @@
 Siano $f \in C^2(A), A\subseteq\mathbb{R}^n$ aperto e $\underline{x_0} \in A$ un [[Punti critici|punto critico]] per $f$, ovvero $\underline{\nabla}f(\underline{x_0})=0$.
 Se $d^2f(\underline{x_0})$ è
-1. Definita positiva $\implies \underline{x_0}$ è un punto di di minimo locale forte
-2. Definita negativa $\implies \underline{x_0}$ è un punto di di massimo locale forte
+1. Definita positiva $\implies \underline{x_0}$ è un punto di minimo locale forte
+2. Definita negativa $\implies \underline{x_0}$ è un punto di massimo locale forte
 3. Indefinita $\implies \underline{x_0}$ è una sella (o colle)
 ## Dimostrazione
 $f \in C^2(A)\implies$ vale la [[Formula di Taylor|formula di Taylor]] al secondo ordine con resto di Peano
