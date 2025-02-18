@@ -3,6 +3,7 @@ Argomenti teoria:
 - [[Serie di Fourier]]
 	- [[Convergenza in media quadratica]]
 	- [[Teoremi sulla convergenza puntuale]]
+- [[Serie trigonometrica]]
 - [[Curve]]
 - [[Massimi e minimi]]
 - [[Punti critici]]
