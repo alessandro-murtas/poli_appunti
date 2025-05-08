@@ -1,0 +1,1 @@
+parametro $\lambda$ indica che $\mathbb{E}[X]=\mu=\frac{1}{\lambda}$ 
