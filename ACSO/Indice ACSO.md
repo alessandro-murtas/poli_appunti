@@ -1,5 +1,5 @@
 - C
 	- [[Compilazione]]
 	- [[Modificatori]]
-	- [[Struttura memoria]]
+	- [[ELF]]
 	- [[Direttive di preprocessing]]
