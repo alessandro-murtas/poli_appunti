@@ -18,3 +18,6 @@ Per ottenere il PID reale aggiungo un polo reale:
 $$R_{\text{PID}}^a(s) = K_P\left(1 + \frac{1}{T_Is} + \frac{T_D}{1+\frac{T_D}{N}s}s \right)$$
 Il polo in $s = - \frac{N}{T_D}$ modifica la posizione degli zeri della funzione di trasferimento del PID reale rispetto a quella del PID ideale, tuttavia, per $N$ sufficientemente grande, le posizioni degli zeri coincidono approssimativamente.
 Alla slide 325, istruzioni per progettare PID reale.
+
+# PI
+$$R_{\text{PI}}(s) = K_P\left(1 + \frac{1}{T_Is}\right)=\mu\frac{1+sT_I}{s} =\mu\left(\frac{1}{s}+T_I\right)=\mu T_I\left(1+\frac{1}{sT_I} \right)$$
