@@ -13,6 +13,7 @@ $$u(t) = K_P e(t) + K_I \int_{t_0}^t e(\tau)d\tau + K_D\frac{det(t)}{dt}$$
 ## PID ideale
 Il PID ideale è un sistema con due zeri a parte reale negativa e un solo polo nell'origine:
 $$R_{\text{PID}}(s) = \mu \frac{(1+s\tau_1)(1+s\tau_2)}{s}$$
+$$R_{\text{PID}}(s) = K_P\left(1 + \frac{1}{T_Is} + T_Ds \right)$$
 ## PID reale
 Per ottenere il PID reale aggiungo un polo reale:
 $$R_{\text{PID}}^a(s) = K_P\left(1 + \frac{1}{T_Is} + \frac{T_D}{1+\frac{T_D}{N}s}s \right)$$
