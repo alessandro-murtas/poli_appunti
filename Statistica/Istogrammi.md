@@ -1,0 +1,1 @@
+Numero classi ideali: $\sqrt{n}$ oppure $1+\log_2{n}$ 
