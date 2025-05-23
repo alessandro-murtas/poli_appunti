@@ -13,3 +13,8 @@ Deviazione standard (scarto quadratico medio): $\sigma = \sqrt{\frac{\sum(x_i-\m
 Valori erratici:$x$ è un valore erratico se $x < Q_1 - 1.5\cdot\text{IQR} \lor x > Q_3 + 1.5\cdot\text{IQR}$
 Densità: $d = \frac{FR}{\text{ampiezza classe}}$ 
 Numero di classi adeguato per istogramma: $\sqrt{N}$ oppure $1 + \log_2{N}$
+Calcolo approssimativo quartili:
+$$Q_1 = \text{est. inf.} + \frac{(0.25-\text{FRC classe prec.})(\text{est. sup.}-\text{est. inf.})}{\text{FR classe quartile}}$$
+$$Q_3 = \text{est. inf.} + \frac{(0.75-\text{FRC classe prec.})(\text{est. sup.}-\text{est. inf.})}{\text{FR classe quartile}}$$
+Calcolo approssimativo media:
+$$\overline{X}_n=\sum_{i=1}^n\frac{(\text{est. sup.}+\text{est. inf.})_i}{2}\cdot\text{FR}_i$$
