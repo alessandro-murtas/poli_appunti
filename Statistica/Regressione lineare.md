@@ -1,5 +1,5 @@
-$$y=\beta_0+\beta_1x+\epsilon$$con
-$$\epsilon=N\left(0,\sigma^2\right)$$
+$$y=\beta_0+\beta_1x+\epsilon$$dove
+$$\epsilon\sim N\left(0,\sigma^2\right)$$
 Incognite:
 - $\beta_0$: intercetta
 - $\beta_1$: tempo (?)
