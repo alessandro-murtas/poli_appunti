@@ -8,7 +8,7 @@ Nella regione ohmica si può usare approssimazione
 # PMOS
 PMOS acceso quando $V_{GS}<V_{Tp}$ .
 PMOS acceso si può trovare in 2 stati:
-* Zona di saturazione quando $V_{DS} > V_{GS}-V_{Tp}$: $I_{Ds}=k_p\cdot (V_{GS}-V_{Tp})^2$
+* Zona di saturazione quando $V_{DS} < V_{GS}-V_{Tp}$: $I_{Ds}=k_p\cdot (V_{GS}-V_{Tp})^2$
 * Regione ohmica (Triodo) si comporta come un resistore: $I_{SD}=k_p\left[2(V_{GS}-V_{Tp})V_{SD}-V_{SD}^2\right]$
 Nella regione ohmica si può usare approssimazione
 
