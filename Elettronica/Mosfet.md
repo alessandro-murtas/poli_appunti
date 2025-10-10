@@ -14,3 +14,7 @@ Nella regione ohmica si può usare approssimazione
 
 ## Tempo propagazione porta logica
 Il tempo di propagazione $t_p$ della porta logica è definito come il tempo necessario a raggiungere il valore medio tra le tensioni dei valori logici di uscita.
+# Mosfet in serie e parallelo
+2 Mosfet uguali in serie si comportano come un unico mosfet con canale di lunghezza doppio: $K=\frac{K'}{2}$
+2 Mosfet uguali in parallelo si comportano come un unico mosfet con canale di larghezza doppio: $K=2K'$
+Più in generale posso trattare MOSFET uguali come resistenze e quindi ottenere $k_{neq}$ come farei con delle resistenze (sommando in serie e con la formula per il parallelo) e poi calcolo l'inverso.
