@@ -7,3 +7,7 @@ $$=xy+\overline{x}z+xyz+\overline{x}yz=xy\cancel{(1+z)}+\overline{x}z\cancel{(1+
 $$f(x_1,x_2,...,x_n)=x_1f(1,x_2,...,x_n)+\overline{x_1}f(0,x_2,...,x_n)$$
 ### Dimostrazione
 #TODO
+## Teorema semplificazione
+## Teorema di de Morgan
+$$\overline{A\cdot B}=\overline{A}+\overline{B}$$
+$$\overline{A + B}=\overline{A}\cdot\overline{B}$$

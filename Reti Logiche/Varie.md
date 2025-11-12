@@ -5,5 +5,7 @@ Esempio:
 $$(x+y)(\overline{x}+z)(y+z)=(x+y)(\overline{x}+z)$$
 Diventa
 $$xy+\overline{x}z+yz=xy+\overline{x}z$$
+## Forma standard
+Una formula è in forma standard se è un prodotto di somme o una somma di prodotti
 ## Implicante
 Se $P$ è implicante di $f(x_1,...,x_n)$ allora $$P\cdot \overline{f(x_1,...,x_n)} = 0$$
