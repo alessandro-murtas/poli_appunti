@@ -9,3 +9,6 @@ $$xy+\overline{x}z+yz=xy+\overline{x}z$$
 Una formula è in forma standard se è un prodotto di somme o una somma di prodotti
 ## Implicante
 Se $P$ è implicante di $f(x_1,...,x_n)$ allora $$P\cdot \overline{f(x_1,...,x_n)} = 0$$
+## Funzione maxtermine e mintermine
+Una funzione **maxtermine** ( o anche _termine-somma_, o _s-termine_ ) è una funzione booleana che assume il valore 0 per una ed una sola combinazione di input.
+Analogamente una funzione mintermine è una funzione booleana che assume il valore 1 per una ed una sola combinazione di input.
