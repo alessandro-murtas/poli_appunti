@@ -1,3 +1,6 @@
+## Teorema assorbimento
+$$x+x\cdot y=x$$
+$$x\cdot(x+y)=x$$
 ## Teorema del consenso
 $$xy + \overline{x}z + yz = xy + \overline{x}z$$
 ### Dimostrazione
@@ -18,6 +21,8 @@ $f(x_1, ..., x_n) =\overline{x_1}\cdot f(0,...,x_n)+x_1\cdot f(1,...,x_n)=\overl
 #### Caso 3: $g+h; gh;\overline{g}$
 
 ## Teorema semplificazione
+$$x+\overline{x}\cdot y=x+y$$
+$$x\cdot (\overline{x}+y)=x\cdot y$$
 ## Teorema di de Morgan
 $$\overline{A\cdot B}=\overline{A}+\overline{B}$$
 $$\overline{A + B}=\overline{A}\cdot\overline{B}$$
