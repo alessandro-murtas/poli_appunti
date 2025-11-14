@@ -12,3 +12,10 @@ Se $P$ è implicante di $f(x_1,...,x_n)$ allora $$P\cdot \overline{f(x_1,...,x_n
 ## Funzione maxtermine e mintermine
 Una funzione **maxtermine** ( o anche _termine-somma_, o _s-termine_ ) è una funzione booleana che assume il valore 0 per una ed una sola combinazione di input.
 Analogamente una funzione mintermine è una funzione booleana che assume il valore 1 per una ed una sola combinazione di input.
+Per ricavare i mintermini di una funzione scrivo i termini come numeri binari, ad esempio:
+$f(x,y,z)=x\overline{y}+xyz+z$
+Posso scrivere
+$x\overline{y}=10-=100,101=4,5$
+$xyz=111=7$
+$z=--1=001,011,101,111=1,3,5,7$
+Quindi i mintermini di $f$ sono $1,3,4,5,7$ e posso scrivere $F=\overline{2}(1,3,4,5,7)$
