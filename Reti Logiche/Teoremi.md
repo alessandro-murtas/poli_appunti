@@ -26,3 +26,5 @@ $$x\cdot (\overline{x}+y)=x\cdot y$$
 ## Teorema di de Morgan
 $$\overline{A\cdot B}=\overline{A}+\overline{B}$$
 $$\overline{A + B}=\overline{A}\cdot\overline{B}$$
+### Dimostrazione
+Per dimostrarlo uso Boole-Shannon
