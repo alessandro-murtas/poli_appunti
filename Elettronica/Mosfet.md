@@ -1,5 +1,5 @@
 ![[NMOS.png]]
-# NMOS
+# NMOS 
 NMOS acceso quando $V_{GS} > V_{Tn}$ .
 NMOS acceso si può trovare in 2 stati:
 * Zona di saturazione quando $V_{DS} > V_{GS}-V_{Tn}$: $I_{Ds}=k_n\cdot (V_{GS}-V_{Tn})^2$
