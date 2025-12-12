@@ -9,7 +9,7 @@
 Avviene per effetto dell'interazione tra particelle di una sostanza con più energia e particelle adiacenti con meno energia.
 Nei gas e liquidi ciò avviene per le collisioni tra molecole nel loro moto casuale.
 Nei solidi ciò avviene per la vibrazione delle molecole nel loro reticolo e all'energia trasportata dagli elettroni liberi.
-#### Potenza termica
+### Legge di Fourier della conduzione del calore
 <center><img src="Conduzione calore.png" alt="drawing" width="250"/></center>
 Potenza termica trasmessa per conduzione (misurata in $W$):
 $$\dot Q_{cond}=\lambda A\frac{T_1-T_2}{\Delta x}=\lambda A\frac{\Delta T}{\Delta x}$$
@@ -25,7 +25,7 @@ Il calore va spontaneamente nel verso delle temperature decrescenti (quindi il g
 $$\alpha=\frac{\text{calore trasmesso per conduzione}}{\text{calore immagazzinato}}=\frac{\lambda}{\rho c}\;\;\;\left(\frac{m^2}{s}\right)$$
 Dalla formula si può intuire che all'aumentare della conduttività termica e al diminuire della capacità termica aumenta la diffusività termica e quindi una propagazione più veloce del calore. Per valori piccoli invece aumenta il calore trattenuto dal materiale e diminuisce quella condotta oltre.
 # Convezione
-Trasmissione del calore tra una superficie solida e il liquido o gas adiacente in movimento. Implica azione combinata di **conduzione** e **trasporto di massa** (che caxxo è?).
+Trasmissione del calore tra una superficie solida e il liquido o gas adiacente in movimento. Implica azione combinata di **conduzione** e **trasporto di massa** (che caxxo è? #TODO controllare cos'è).
 È proporzionale alla velocità del fluido.
 In assenza di trasporto di massa la trasmissione di calore tra superficie solida e il fluido adiacente avviene solo per conduzione.
 Si distingue in:
@@ -33,8 +33,41 @@ Si distingue in:
 - **Conduzione libera**: se il fluido si muove a causa di forze ascensionali legate a variazioni di temperatura nel fluido.
 ### Legge di Newton
 $$\dot Q_{conv}=hA_{spf}(T_{spf}-T_\infty) $$
-$h$: coefficiente di trasmissione del calore per convezione in $W/m^2\cdot\degree C$. Non dipende dal fluido 
+$h$: coefficiente di trasmissione del calore per convezione in $W/m^2\cdot\degree C$. Non è una proprietà dal fluido ma dipende da vari fattori tra cui:
+- Velocità del fluido
+- Proprietà del fluido
+- Natura del moto
+- Geometria di superficie
 $A_{spf}$: area della superficie attraverso cui la trasmissione di calore per convezione ha luogo
 $T_{spf}$: temperatura della superficie
 $T_{\infty}$: temperatura del fluido a distanza sufficientemente grande dalla superficie
 # Irraggiamento
+Energia emessa da sostanza sotto forma di **fotoni** come risultato di modificazioni nelle configurazioni elettroniche degli atomi o delle molecole.
+Non richiede la presenza di un mezzo.
+La trasmissione di calore per irraggiamento avviene alla velocità della luce e non si attenua nel vuoto.
+Qualsiasi corpo con temperatura maggiore dello zero assoluto emette radiazione termica.
+### Legge di Stefan-Boltzmann
+$$\dot Q_{emis, max}=\sigma A_{spf}T_{spf}^4$$
+$$\dot Q_{emis}=\varepsilon Q_{emis,max}=\varepsilon\sigma A_{spf}T_{spf}^4$$
+**Costante di Stefan-Boltzmann $\sigma$**: $\sigma=5.67 \times 10^{-8}W/m^2 \cdot K^4$
+**Corpo nero**: La superficie ideale che emette per irraggiamento tale potenza massima
+**Emissività $\varepsilon$**: una misura di quanto il comportamento di una superficie si approssima a quello del corpo nero per cui $\varepsilon = 1$, ε è compreso nell'intervallo 0-1
+$$\dot Q_{irr}=\text{Potenza term. radiante emessa}-\text{Potenza term. radiante assorbita}$$
+Difficile da determinare e dipende da:
+- Proprietà superfici
+- Loro orientamento relativo
+- Caratteristiche del mezzo tra le due superfici
+Nel caso in cui una superficie è completamente contenuta in un altra di area molto più grande (o nera), a temperatura $T_{amb}$, separata da un gas, si può usare questa formula per la potenza termica
+$$\dot Q_{irr}=\varepsilon\sigma A_{spf}(T_{spf}^4-T_{amb}^4)$$
+Quando l’irraggiamento e la convezione avviene simultaneamente tra una superficie e un gas:
+$\dot Q_{tot}=h_{comb}A_{spf}(T_{spf}-T_{\infty}$
+# Modalità simultanee di trasmissione del calore
+
+|                        | Irragiamento |  Convezione  |  Conduzione  |
+| ---------------------- | :----------: | :----------: | :----------: |
+| Solido opaco           |              |              | $\checkmark$ |
+| Solido semitrasparente | $\checkmark$ |              | $\checkmark$ |
+| Fluido in quiete       | $\checkmark$ |              | $\checkmark$ |
+| Fluido in moto         | $\checkmark$ | $\checkmark$ |              |
+| Vuoto                  | $\checkmark$ |              |              |
+La trasmissione del calore avviene solo per conduzione nei solidi opachi, mentre avviene per conduzione e irraggiamento nei solidi semitrasparenti. In un corpo solido vi può essere scambio di calore per conduzione e irraggiamento ma non per convezione. Un solido può presentare trasmissione del calore per convezione e/o irraggiamento in corrispondenza delle superfici che lo delimitano se queste sono a contatto con un fluido o esposte ad altre superfici. La trasmissione del calore avviene per conduzione ed eventualmente per irraggiamento in un fluido in quiete (nessun tipo di movimento all’interno del fluido), mentre avviene per convezione e irraggiamento in un fluido in moto. In assenza di irraggiamento, la trasmissione del calore all’interno di un fluido può essere sia per convezione sia per conduzione, a seconda della presenza o meno di trasporto di massa. Convezione = Conduzione + fluido in moto La trasmissione di calore attraverso il vuoto è tramite irraggiamento. I gas sono praticamente trasparenti alla radiazione. I liquidi sono normalmente buoni assorbitori di radiazione.
