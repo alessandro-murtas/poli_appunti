@@ -18,5 +18,13 @@ $\lambda$: Conduttività termica
 $q_\text{gen}$: Generazione interna di calore per unità di calore ($W/m^3$)
 Variazioni del gradiente di temperatura noti:
 - Equazione di Fourier: Assenza di generazione interna ($q_\text{gen}=0$) $$\nabla^2T=\frac{1}{\alpha}\frac{\delta T}{\delta t}$$
-- Equazione di Laplace: Assenza di generazione interna e regime stazionario $$\nabla^2T = 0$$
+- Equazione di Laplace: Assenza di generazione interna e regime stazionario ($\frac{\delta T}{\delta t}=0$) $$\nabla^2T = 0$$
 - Equazione di Poisson: Regime stazionario con generazione interna ($q_\text{gen}\neq 0$) $$\nabla^2T+\frac{\dot q}{k}=0$$
+Ci si trova in regime stazionario quando non vi è variazione dell'energia interna della parete nel tempo, ovvero la parete non accumula energia (il flusso termico entrante è uguale a quello uscente): $\frac{dE_\text{parete}}{dt}=\dot Q_e - \dot Q_u=0\implies \dot Q_e=\dot Q_u$
+Ne deriva che il flusso termico nella parete deve essere costante: $\dot Q_{cond, parete}=$ costante
+### Conduzione termica nelle pareti piane
+Sapendo che $\dot Q=q\cdot A$, ovvero la potenza termica è il flusso termico moltiplicato per l'area (della parete in questo caso) e applicando la Legge di Fourier vista prima otteniamo
+$$\dot Q_\text{cond,parete}=-\lambda A\frac{dT}{dx}$$Poiché il flusso termico è costante (come visto prima), l'area e la conduttività sono costanti, ne consegue che anche il termine $\frac{dt}{dx}$ è costante. Ciò significa che la temperatura attraverso la parete varia linearmente con $x$.
+Integrando tra $T_1$ e $T_2$ e tra $0$ e $L$ (spessore della parete) otteniamo
+$$\dot Q_\text{cond, parete}=-\lambda A\frac{T_2-T_1}{L}=\lambda A\frac{T_1-T_2}{L}$$
+Conoscendo la potenza termica posso ricavare la temperatura $T(x)$ in qualsiasi posizione $x$ tramite formula inversa.
