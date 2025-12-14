@@ -60,7 +60,10 @@ Difficile da determinare e dipende da:
 Nel caso in cui una superficie è completamente contenuta in un altra di area molto più grande (o nera), a temperatura $T_{amb}$, separata da un gas, si può usare questa formula per la potenza termica
 $$\dot Q_{irr}=\varepsilon\sigma A_{spf}(T_{spf}^4-T_{amb}^4)$$
 Quando l’irraggiamento e la convezione avviene simultaneamente tra una superficie e un gas:
-$\dot Q_{tot}=h_{comb}A_{spf}(T_{spf}-T_{\infty}$
+$$\dot Q_{tot}=h_{comb}A_{spf}(T_{spf}-T_{\infty})$$
+Con $h_{comb}=h_{conv}+h_{irr}$ e $h_{irr}=\varepsilon\sigma(T_{spf}+T_{amb})(T_{spf}^2+T_{amb}^2)$
+$h_{irr}$ si dice **coefficiente radiativo equivalente**
+Adduttanza liminare
 # Modalità simultanee di trasmissione del calore
 
 |                        | Irragiamento |  Convezione  |  Conduzione  |
