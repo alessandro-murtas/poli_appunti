@@ -28,3 +28,16 @@ $$\dot Q_\text{cond,parete}=-\lambda A\frac{dT}{dx}$$Poiché il flusso termico �
 Integrando tra $T_1$ e $T_2$ e tra $0$ e $L$ (spessore della parete) otteniamo
 $$\dot Q_\text{cond, parete}=-\lambda A\frac{T_2-T_1}{L}=\lambda A\frac{T_1-T_2}{L}$$
 Conoscendo la potenza termica posso ricavare la temperatura $T(x)$ in qualsiasi posizione $x$ tramite formula inversa.
+## Resistenza termica
+La formula per il calcolo della potenza termica può essere riscritta in modo analogo a quella della corrente elettrica $i=\frac{\Delta V}{R}$, ovvero
+$$\dot Q_\text{cond,parete}=\frac{T_1-T_2}{R_\text{parete}}=\frac{\Delta T}{R_\text{parete}}$$
+con
+$$R_\text{parete}=\frac{L}{\lambda A}$$
+Questa analogia si può applicare anche a convezione e irraggiamento:
+$$\dot Q_\text{conv}=\frac{T_\text{spf}-T_\infty}{R_\text{conv}}\hspace{1cm}R_\text{conv}=\frac{1}{hA}$$
+$$\dot Q_\text{irr}=\frac{T_\text{spf}-T_\text{amb}}{R_\text{irr}}\hspace{1cm} R_\text{irr}=\frac{1}{h_\text{irr}A}$$
+Quando una superficie è soggetta sia a irraggiamento sia a convezione le resistenza si trovano in parallelo. Se $T_\text{amb} \approx T_\infty$ si può approssimare usando una sola resistenza tenendo $h_\text{comb}=h+h_\text{irr}$ ottenendo quindi
+$$R_\text{conv+irr}=\frac{1}{h_\text{comb}A}$$
+## Conduzione termica in cilindri e sfere
+### Cilindri
+$$\dot Q_\text{cond,cil}=-\lambda A\frac{dT}{dr}=2\pi L\lambda\frac{T_1-T_2}{\ln{(r_2/r_1)}}=\frac{T_1-T_2}{R_\text{cil}}\hspace{1cm}R_\text{cil}=\frac{\ln{(r_2/r_1)}}{2\pi L\lambda}$$
