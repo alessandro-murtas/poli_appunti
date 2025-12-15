@@ -41,3 +41,10 @@ $$R_\text{conv+irr}=\frac{1}{h_\text{comb}A}$$
 ## Conduzione termica in cilindri e sfere
 ### Cilindri
 $$\dot Q_\text{cond,cil}=-\lambda A\frac{dT}{dr}=2\pi L\lambda\frac{T_1-T_2}{\ln{(r_2/r_1)}}=\frac{T_1-T_2}{R_\text{cil}}\hspace{1cm}R_\text{cil}=\frac{\ln{(r_2/r_1)}}{2\pi L\lambda}$$
+### Sfere
+$$\dot Q_\text{cond,sfera}=-\lambda A\frac{dT}{dr}=4\pi r_1r_2\lambda\frac{T_1-T_2}{r_2-r_1}=\frac{T_1-T_2}{R_\text{sfera}}\hspace{1cm}R_\text{sfera}=\frac{r_2-r_1}{4\pi r_1r_2\lambda}$$
+Per pareti, cilindri o sfere multistrato si calcolano le resistenze di ogni strato e si sommano per trovare la potenza termica. Essendo in regime stazionario la potenza è costante in ogni strato e posso quindi poi ricavare la temperatura in ogni punto.
+### Raggio critico di isolamento
+Nelle sfere o nei cilindri aggiungere uno strato di isolamento non sempre riduce la potenza termica, infatti l'aggiunta di questo strato fa sì aumentare la resistenza conduttiva però fa aumentare la superficie esposta alla convezione riducendo quindi la resistenza convettiva.
+Esiste un raggio tale per cui la diminuzione di trasferimento termico è massima e si chiama **raggio critico di isolamento** ($r_\text{cr,cil}$).
+$$r_\text{cr,cil}=\frac{\lambda}{h}$$
