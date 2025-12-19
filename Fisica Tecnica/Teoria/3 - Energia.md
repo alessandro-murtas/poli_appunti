@@ -42,3 +42,19 @@ In un sistema adiabatico $Q=0$
 ### Lavoro
 Il lavoro è la forma di energia che si trasferisce per l'effetto combinato di una forza e di uno spostamento.
 - Lavoro compiuto per unità di massa: $l=\frac{L}{m}\hspace{0.5cm}(J/g)$
+##### Lavoro elettrico
+- Lavoro elettrico: $L_\text{el}=V_\text{el}N\hspace{0.4cm}(J)$
+- Potenza elettrica: $\dot L_\text{el}=\int_1^2V_\text{el}I\;dt=V_\text{el}I\hspace{0.4cm}(W)$
+##### Lavoro meccanico
+- Lavoro: $L=\int_1^2F\;ds=Fs\hspace{0.4cm}(J)$
+Se forza agisce s un albero
+$n$: numero di giri dell'albero
+$r$: raggio dell'albero
+- Momento: $M=Fr$
+- Lavoro all'albero: $L_\text{albero}=Fs=\left(\frac{M}{r}\right)(2\pi rn)=2\pi nM$
+- Potenza all'albero: $\dot L_\text{albero}=2\pi\dot nM \hspace{0.4cm}(W)$
+### Calore vs lavoro
+Lavoro positivo: il sistema svolge lavoro (espansione)
+Lavoro negativo: il sistema subisce lavoro (compressione)
+Calore positivo: il sistema assorbe calore (temperatura aumenta circa)
+Calore negativo: il sistema cede calore (temperatura diminuisce circa)
