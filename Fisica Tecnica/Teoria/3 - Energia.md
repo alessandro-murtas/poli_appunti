@@ -49,6 +49,7 @@ Il lavoro è la forma di energia che si trasferisce per l'effetto combinato di u
 - Lavoro: $L=\int_1^2F\;ds=Fs\hspace{0.4cm}(J)$
 Se forza agisce s un albero
 $n$: numero di giri dell'albero
+$\dot n$: numero di giri al minuto
 $r$: raggio dell'albero
 - Momento: $M=Fr$
 - Lavoro all'albero: $L_\text{albero}=Fs=\left(\frac{M}{r}\right)(2\pi rn)=2\pi nM$
@@ -58,3 +59,5 @@ Lavoro positivo: il sistema svolge lavoro (espansione)
 Lavoro negativo: il sistema subisce lavoro (compressione)
 Calore positivo: il sistema assorbe calore (temperatura aumenta circa)
 Calore negativo: il sistema cede calore (temperatura diminuisce circa)
+### Primo principio della termodinamica
+### Rendimenti
