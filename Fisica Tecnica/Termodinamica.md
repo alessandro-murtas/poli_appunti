@@ -10,6 +10,7 @@ Equazione di stato dei gas perfetti: $pV=nRT$
 Energia: $U=nc_vT\implies \Delta U = nc_v\Delta T$
 Primo principio della termodinamica: $\Delta U = Q-W$
 Costante dei gas perfetti: $R=8.314 \frac{J}{mol\cdot K}$
+Costante specifica del gas: $R^*=R/M$ ($\frac{J}{kg\cdot K}$)
 Relazione di Meyer: $R=c_p-c_v$
 Costante gamma: $\gamma=\frac{c_p}{c_v}$
 Calore specifico molare in gas monoatomici: $c_v=\frac{3}{2}R$, $c_p=\frac{5}{2}R$, $\gamma=\frac{5}{3}$
