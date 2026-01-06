@@ -1,11 +1,12 @@
 ## Trasformazioni
 
-| Tipo       |         $W$         |      $Q$       |   $\Delta U$   |                          Costanti                           |
-| ---------- | :-----------------: | :------------: | :------------: | :---------------------------------------------------------: |
-| Isocora    |          0          | $nc_v\Delta T$ |      $Q$       |                        $\frac{p}{T}$                        |
-| Isobara    |     $p\Delta V$     | $nc_p\Delta T$ | $nc_v\Delta T$ |                        $\frac{V}{T}$                        |
-| Isoterma   | $nRT\ln{(V_f/V_i)}$ |      $W$       |       0        |                            $pV$                             |
-| Adiabatica |     $-\Delta U$     |       0        | $nc_v\Delta T$ | $pV^\gamma , Tp^{\frac{1-\gamma}{\gamma}}$, $TV^{\gamma-1}$ |
+| Tipo        |         $W$         |      $Q$       |   $\Delta U$   |                         Costanti                          |   $n$    |
+| ----------- | :-----------------: | :------------: | :------------: | :-------------------------------------------------------: | :------: |
+| Politropica |                     |                |                |                          $pV^n$                           |   $n$    |
+| Isocora     |          0          | $nc_v\Delta T$ |      $Q$       |                       $\frac{p}{T}$                       | $\infty$ |
+| Isobara     |     $p\Delta V$     | $nc_p\Delta T$ | $nc_v\Delta T$ |                       $\frac{V}{T}$                       |   $0$    |
+| Isoterma    | $nRT\ln{(V_f/V_i)}$ |      $W$       |       0        |                           $pV$                            |   $1$    |
+| Adiabatica  |     $-\Delta U$     |       0        | $nc_v\Delta T$ | $pV^\gamma , Tp^{\frac{1-\gamma}{\gamma}}, TV^{\gamma-1}$ | $\gamma$ |
 Equazione di stato dei gas perfetti: $pV=nRT$
 Energia: $U=nc_vT\implies \Delta U = nc_v\Delta T$
 Primo principio della termodinamica: $\Delta U = Q-W$
