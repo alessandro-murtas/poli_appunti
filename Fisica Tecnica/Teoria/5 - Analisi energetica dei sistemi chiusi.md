@@ -17,3 +17,5 @@ Posso calcolare il calore scambiato in una trasformazione conoscendo l'entalpia 
 $$Q_{1\to2}=H_2-H_1-\int_1^2 Vdp$$
 In una trasformazione isobare quindi il calore scambiato è pari alla variazione di entalpia
 $$Q_{p=\text{cost}}=H_2-H_1$$
+Il differenziale di entalpia lo posso scrivere in 3 modi:
+$$dH=\left( \frac{\partial H}{\partial p} \right)_Vdp+\left( \frac{\partial H}{\partial V} \right)_pdV$$$$dH=\left( \frac{\partial H}{\partial p} \right)_Tdp+\left( \frac{\partial H}{\partial T} \right)_pdT$$$$dH=\left( \frac{\partial H}{\partial V} \right)_Tdv+\left( \frac{\partial H}{\partial T} \right)_VdT$$
