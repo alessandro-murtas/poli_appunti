@@ -13,3 +13,11 @@ $S_\text{lav}=0$
 $\dot S_\text{massa}=\int_A s\rho w_n\;dA$
 $S_\text{massa}=\int s\;\delta m=\int_{\Delta t}\dot S_\text{massa}\;dt$
 in condizioni costanti: $S_\text{massa}=ms$
+#### Sistemi chiusi
+In un sistema chiudo $\Delta S_\text{sistema}=S_2-S_1=\sum \frac{Q_k}{T_k} +S_\text{gen}$
+Se il sistema è adiabatico $\Delta S_\text{sistema adiabatico}=S_\text{gen}$
+$\Delta S_\text{sistema}=m(s_2-s_1)$
+#### Volumi di controllo
+Flusso stazionario: $\dot S_\text{gen}=\sum \dot m_e s_e-\sum \dot m_u s_u - \sum \frac{\dot Q_k}{T_k}$
+Flusso staz., una sola entrata: $\dot S_\text{gen}=\dot m(s_u-s_e)-\sum \frac{\dot Q_k}{T_k}$
+Flusso staz., 1 entr., adiabatico: $\dot S_\text{gen}=\dot m(s_u-s_e)$
