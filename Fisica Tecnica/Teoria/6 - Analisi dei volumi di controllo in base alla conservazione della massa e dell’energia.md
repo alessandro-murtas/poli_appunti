@@ -6,3 +6,6 @@ Se analizziamo per unità di tempo:
 $$\dot m_\text{entrante}-\dot m_\text{uscente}=dm_{VC}/dt\hspace{0.4cm}(kg/s)$$
 ### Bilancio di massa per processi a flusso stazionario
 In un processo a flusso stazionario la massa totale nel volume di controllo **non varia**, quindi la massa entrante deve eguagliare quella uscente.
+#### Compressori e turbine
+(turbo)Compressore: $$\dot L_\text{entrante}=\dot Q_\text{uscente}+\dot m(h_2-h_1)$$
+Turbina: $$\dot L_\text{uscente}=$$
