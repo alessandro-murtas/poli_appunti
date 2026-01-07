@@ -22,3 +22,9 @@ Un gas perfetto non cambia temperatura in un processo di laminazione poiché $h=
 <center><img src="Camera di miscelazione.png" alt="drawing" width="250"/></center>
 $$\dot m_1h_1+\dot m_2h_2=\dot m_3h_3$$
 #### Scambiatori di calore
+In uno scambiatore di calore il bilancio energetico dipende dalla scelta del volume di controllo
+<center><img src="Miscelatore 1.png" width=250 /></center>
+$$\dot m_\text{acqua}(h_1-h_2)=\dot m_\text{refr}(h_4-h_3)$$
+---
+<center><img src="Miscelatore 2.png" width=250/></center>
+$$\dot Q_\text{R,entrante}=\dot m_\text{R}(h_2-h_1)$$
