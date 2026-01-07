@@ -8,4 +8,12 @@ $$\dot m_\text{entrante}-\dot m_\text{uscente}=dm_{VC}/dt\hspace{0.4cm}(kg/s)$$
 In un processo a flusso stazionario la massa totale nel volume di controllo **non varia**, quindi la massa entrante deve eguagliare quella uscente.
 #### Compressori e turbine
 (turbo)Compressore: $$\dot L_\text{entrante}=\dot Q_\text{uscente}+\dot m(h_2-h_1)$$
-Turbina: $$\dot L_\text{uscente}=$$
+Turbina: $$\dot L_\text{uscente}=\dot m\left[(h_1-h_2)+\frac{w_1^2-w_2^2}{2}+g(z_2-z_1)\right]$$
+#### Valvole di laminazione
+$$h_1\approx h_2\implies u_1+p_1v_1=u_2+p_2v_2$$
+Entalpia costante.
+Un gas perfetto non cambia temperatura in un processo di laminazione poiché $h=h(T)$
+#### Camere di miscelazione
+<center><img src="Camera di miscelazione.png" alt="drawing" width="250"/></center>
+$$\dot m_1h_1+\dot m_2h_2=\dot m_3h_3$$
+#### Scambiatori di calore
