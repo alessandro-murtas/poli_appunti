@@ -25,3 +25,18 @@ In un ciclo l'energia interna rimane costante: $A = B \implies \Delta U= 0$
 Macchina termica
 Lavoro: $W = Q_A-|Q_C|$ 
 Rendimento: $\eta =\frac{W}{Q_A}=1-\frac{|Q_C|}{Q_A}$ 
+### Ciclo di Carnot
+Composto da:
+- Espansione isoterma (non varia temperatura)
+- Espansione isoentropica (non varia entropia)
+- Compressione isoterma
+- Compressione isoentropica
+Rendimento: $\eta_\text{Carnot}=1-\frac{T_i}{T_s}$
+<center><img src="Carnot pv.png" width=197>  <img src="Carnot ts.png"></center>
+### Ciclo Otto
+
+### Ciclo Diesel
+### Ciclo Joule-Brayton
+### Ciclo di Rankine
+![[Rankine.png]]
+### Macchine frigorifere e pompe di calore
