@@ -25,6 +25,7 @@ In un ciclo l'energia interna rimane costante: $A = B \implies \Delta U= 0$
 Macchina termica
 Lavoro: $W = Q_A-|Q_C|$ 
 Rendimento: $\eta =\frac{W}{Q_A}=1-\frac{|Q_C|}{Q_A}$ 
+Il rendimento in linea generale aumenta all'aumentare della differenza di temperatura in ingresso e in uscita.
 ### Ciclo di Carnot
 Composto da:
 - Espansione isoterma (non varia temperatura)
@@ -32,11 +33,19 @@ Composto da:
 - Compressione isoterma
 - Compressione isoentropica
 Rendimento: $\eta_\text{Carnot}=1-\frac{T_i}{T_s}$
-<center><img src="Carnot pv.png" width=197>  <img src="Carnot ts.png"></center>
+<center><img src="Ciclo Carnot pv.png" height=200>  <img src="Ciclo Carnot ts.png" height=200></center>
 ### Ciclo Otto
-
+Rapporto di compressione: $r=\frac{V_\text{max}}{V_\text{min}}$
+Rendimento: $\eta_\text{Otto}=1-\frac{1}{r^{k-1}}$
+<center><img src="Ciclo Otto pv.png" height=200>  <img src="Ciclo Otto ts.png" height=200></center>
 ### Ciclo Diesel
+<center><img src="Ciclo Diesel pv.png" height=200>  <img src="Ciclo Diesel ts.png" height=200></center>
 ### Ciclo Joule-Brayton
+Rapporto manometrico di compressione: $\beta=\frac{p_2}{p_1}$
+Coefficiente dilatazione adiabatica: $k=\frac{c_p}{c_v}$
+Rendimento: $\eta_\text{Brayton}=1-\frac{1}{\beta^{(k-1)/k}}$
+Rendimento massimo per $\beta=(T_\text{max}-T_\text{min})^{k/[2(k-1)]}$
+<center><img src="Ciclo Brayton pv.png" height=200>  <img src="Ciclo Brayton ts.png" height=200></center>
 ### Ciclo di Rankine
-![[Rankine.png]]
+<center><img src="Ciclo Rankine ts.png" height=200></center>
 ### Macchine frigorifere e pompe di calore
