@@ -10,12 +10,14 @@ Tra un liquido saturo e un vapore saturo c'è la **miscela satura di liquido e v
 <center><figure><img src="Fasi.png" width=250/>
   <figcaption>Diagramma di un processo di riscaldamento dell'acqua a pressione costante</figcaption></figure></center>
 ### Proprietà
-Temperatura di saturazione $T_\text{sat}$: Temperatura a cui una sostanza inizia a evaporare (fissata la pressione)
-Pressione di saturazione $p_\text{sat}$: Pressione a cui una sostanza inizia a evaporare (fissata la temperatura)
-Calore latente $c$: quantità di energia assorbita (o liberata) durante trasformazione con cambio di fase
-
-Volume specifico $v$: reciproco della densità
-Titolo $x$: rapporto tra massa vapore e massa totale in una miscela.
+**Temperatura di saturazione** $T_\text{sat}$: Temperatura a cui una sostanza inizia a evaporare (fissata la pressione)
+**Pressione di saturazione** $p_\text{sat}$: Pressione a cui una sostanza inizia a evaporare (fissata la temperatura)
+**Calore latente**: quantità di energia assorbita (o liberata) durante trasformazione con cambio di fase
+**Calore latente di fusione**: La quantità di energia assorbita durante la fusione uguale a quella liberata durante solidificazione.
+**Calore latente di vaporizzazione**: La quantità di energia assorbita durante la vaporizzazione uguale a quella liberata durante la condensazione.
+**Punto critico**: punto in cui coesistono vapore saturo e liquido saturo.
+**Volume specifico** $v$: reciproco della densità
+**Titolo** $x$: rapporto tra massa vapore e massa totale in una miscela.
 $x\in[0,1]$, se $x=0$ liquido saturo, se $x=1$ vapore saturo.
 Un liquido saturo mantiene le proprietà anche quando è in una miscela con vapore.
 ### Entalpia
