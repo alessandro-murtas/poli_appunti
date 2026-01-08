@@ -5,6 +5,11 @@
 	- Irraggiamento
 	- Conduzione
 	- Convezione
+### Numero di Biot
+$$B_i=\frac{hL_c}{k}$$
+$L_c=\frac{V}{A}$
+$k=\rho c \alpha$
+Per valori del numero di Biot inferiori a $0.1$ posso applicare modello zero-dimensionale della conduzione termica transitoria.
 # Conduzione
 Avviene per effetto dell'interazione tra particelle di una sostanza con più energia e particelle adiacenti con meno energia.
 Nei gas e liquidi ciò avviene per le collisioni tra molecole nel loro moto casuale.
@@ -25,7 +30,7 @@ Il calore va spontaneamente nel verso delle temperature decrescenti (quindi il g
 $$\alpha=\frac{\text{calore trasmesso per conduzione}}{\text{calore immagazzinato}}=\frac{\lambda}{\rho c}\;\;\;\left(\frac{m^2}{s}\right)$$
 Dalla formula si può intuire che all'aumentare della conduttività termica e al diminuire della capacità termica aumenta la diffusività termica e quindi una propagazione più veloce del calore. Per valori piccoli invece aumenta il calore trattenuto dal materiale e diminuisce quella condotta oltre.
 # Convezione
-Trasmissione del calore tra una superficie solida e il liquido o gas adiacente in movimento. Implica azione combinata di **conduzione** e **trasporto di massa** (che caxxo è? #TODO controllare cos'è).
+Trasmissione del calore tra una superficie solida e il liquido o gas adiacente in movimento. Implica azione combinata di **conduzione** e **trasporto di massa**.
 È proporzionale alla velocità del fluido.
 In assenza di trasporto di massa la trasmissione di calore tra superficie solida e il fluido adiacente avviene solo per conduzione.
 Si distingue in:
