@@ -5,11 +5,12 @@
 	- Irraggiamento
 	- Conduzione
 	- Convezione
-### Numero di Biot
+### Modello zero-dimensionale
 $$B_i=\frac{hL_c}{k}$$
 $L_c=\frac{V}{A}$
 $k=\rho c \alpha$
 Per valori del numero di Biot inferiori a $0.1$ posso applicare modello zero-dimensionale della conduzione termica transitoria.
+Costante di tempo: $\tau=\frac{\rho cV}{hA}=\frac{\rho cL_c}{h}=RC$ 
 # Conduzione
 Avviene per effetto dell'interazione tra particelle di una sostanza con più energia e particelle adiacenti con meno energia.
 Nei gas e liquidi ciò avviene per le collisioni tra molecole nel loro moto casuale.
