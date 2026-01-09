@@ -33,14 +33,27 @@ Composto da:
 - Compressione isoterma
 - Compressione isoentropica
 Rendimento: $\eta_\text{Carnot}=1-\frac{T_i}{T_s}$
+Coefficiente di prestazione: $COP=\frac{T_i}{T_i-T_s}$
 <center><img src="Ciclo Carnot pv.png" height=200>  <img src="Ciclo Carnot ts.png" height=200></center>
 ### Ciclo Otto
+1. Compressione isoentropica
+2. Trasformazione isocora
+3. Espansione isoentropica
+4. 
 Rapporto di compressione: $r=\frac{V_\text{max}}{V_\text{min}}$
 Rendimento: $\eta_\text{Otto}=1-\frac{1}{r^{k-1}}$
 <center><img src="Ciclo Otto pv.png" height=200>  <img src="Ciclo Otto ts.png" height=200></center>
 ### Ciclo Diesel
+1. Compressione isoentropica
+2. Espansione isobara
+3. Espansione isoentropica
+4. Trasformazione isocora
 <center><img src="Ciclo Diesel pv.png" height=200>  <img src="Ciclo Diesel ts.png" height=200></center>
 ### Ciclo Joule-Brayton
+1. Compressione isoentropica
+2. Espansione isobara
+3. Espansione isoentropica
+4. Compressione isobara
 Rapporto manometrico di compressione: $\beta=\frac{p_2}{p_1}$
 Coefficiente dilatazione adiabatica: $k=\frac{c_p}{c_v}$
 Rendimento: $\eta_\text{Brayton}=1-\frac{1}{\beta^{(k-1)/k}}$
