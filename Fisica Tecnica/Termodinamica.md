@@ -39,7 +39,7 @@ Coefficiente di prestazione: $COP=\frac{T_i}{T_i-T_s}$
 1. Compressione isoentropica
 2. Trasformazione isocora
 3. Espansione isoentropica
-4. 
+4. Trasformazione isocora
 Rapporto di compressione: $r=\frac{V_\text{max}}{V_\text{min}}$
 Rendimento: $\eta_\text{Otto}=1-\frac{1}{r^{k-1}}$
 <center><img src="Ciclo Otto pv.png" height=200>  <img src="Ciclo Otto ts.png" height=200></center>
