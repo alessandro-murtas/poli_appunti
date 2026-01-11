@@ -73,3 +73,6 @@ In un corpo nero si approssima a $J_i=E_{ni}=\sigma^4T_i^4$
 $$\dot Q_i=A_i(J_i-G_i)=\frac{A_i\varepsilon_i}{1-\varepsilon_i}(E_{ni}-J_i)$$
 Utilizzando l'analogia con legge di Ohm:
 $$\dot Q_i=\frac{E_{ni}-J_i}{R_i}\hspace{1cm}R_i=\frac{1-\varepsilon_i}{A_i\varepsilon_i}$$
+## Potenza termica tra due superfici
+$$\dot Q_{i\to j}=A_iF_{ij}(J_{ij}-J_{ji})=\frac{J_{ij}-J_{ji}}{R_{ij}}$$
+con $R_{ij}=\frac{1}{A_iF_{ij}}$ detta resistenza spaziale
