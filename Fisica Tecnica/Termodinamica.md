@@ -62,3 +62,13 @@ Rendimento massimo per $\beta=(T_\text{max}-T_\text{min})^{k/[2(k-1)]}$
 ### Ciclo di Rankine
 <center><img src="Ciclo Rankine ts.png" height=200></center>
 ### Macchine frigorifere e pompe di calore
+$COP_F=\frac{1}{Q_s/Q_i-1}\hspace{1cm}COP_\text{F,rev}=\frac{1}{T_s/T_i-1}$
+$COP_\text{PDC}=\frac{1}{1-Q_i/Q_s}\hspace{0.48cm}COP_\text{PDC,rev}=\frac{1}{1-T_i/T_s}$
+##### Ciclo inverso a compressione di vapore ideale
+1. Compressione isoentropica
+2. Compressione isobara
+3. Laminazione isoentalpica
+4. Espansione isobara
+$COP_F=\frac{q_i}{l_{n,e}}=\frac{h_1-h_4}{h_2-h_1}$
+$COP_{PDC}=\frac{q_s}{l_{n,e}}=\frac{h_2-h_3}{h_2-h_1}$
+<center><img src="Ciclo inverso vapore ideale.png" height=200/></center>
