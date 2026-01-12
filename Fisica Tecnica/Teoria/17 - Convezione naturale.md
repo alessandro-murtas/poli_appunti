@@ -5,7 +5,7 @@ $g$: Accelerazione gravitazionale
 $\beta$: Coefficiente di dilatazione cubica
 ### Numero di Rayleigh
 $$\text{Ra}_L=\text{Gr}_L\text{Pr}=\frac{g\beta(T_\text{spf}-T_\infty)^2L_c^3}{v^2}\text{Pr}$$
-Posso riscrivere il numero di Prandtl in funzione del numero di Rayleigh:
+Posso riscrivere il numero di Nusselt in funzione del numero di Rayleigh:
 $$\text{Nu}=\frac{hL_c}{\lambda}=C(\text{Gr}_L\text{Pr})^n=C\text{Ra}_L^n$$
 I valori delle costanti $C$ e $n$ dipendono dalla geometria della superficie e dal regime di flusso (che dipende dal valore del numero di Rayleigh).
 ### Numero di Richardson
