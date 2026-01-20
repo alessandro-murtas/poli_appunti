@@ -1,4 +1,4 @@
-ODBC=Open Database Connectivity
+ODBC=Open DataBase Connectivity
 # Java
 ```Java
 import java.sql.*;
@@ -6,10 +6,24 @@ import java.sql.*;
 // Connessione al DB
 Connection con = DriverManager.getConnection("odbc:jdbc:myDB", dbUsername, dbPswd);
 
-// Esecuzione query
-Statement stmt = con.createStatement();
-stmt.executeUpdate("INSERT INTO USERS " + "VALUES ("Alex", "12345", 42)");
+// Query 1
+String query = "SELECT * FROM USERS";
+Statement stmt1 = con.createStatement();
+ResultSet rs = stmt1.executeQuery(query);
+
+while (rs.next()) {
+	String s = rs.getString("Username");
+	int n = rs.getInt("Age");
+	System.out.println(s + " " + n);
+}
+
+rs.close();
 stmt.close();
+
+// Query 2
+Statement stmt2 = con.createStatement();
+stmt2.executeUpdate("INSERT INTO USERS VALUES ('Alex', '12345', 42)");
+stmt2.close();
 
 // Transazioni
 try {
