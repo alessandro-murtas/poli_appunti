@@ -32,6 +32,7 @@ try {
 	
 	st.executeUpdate("…");
 	st.executeUpdate("…");
+	
 	con.commit();
 }
 catch (Exception ex) {
@@ -49,6 +50,7 @@ con.close();
 ```python
 import mysql.connector
 
+# Connessione al DB
 con = mysql.connector.connect (host='localhost', port=3306, database='universita', user='root', password='basiDiDati')
 
 cursor = con.cursor()
