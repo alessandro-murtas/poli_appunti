@@ -27,3 +27,33 @@ Esempio di documento:
 ```
 
 ## Mongosh
+Per trovare tutti gli utenti di nome Alessandro:
+```mongosh
+> db.users.find({"name": "Alessandro"})
+...
+> db.users.find({"name": "Alessandro"}).count()
+3
+```
+Per trovare quanti utenti minorenni:
+```mongosh
+> db.users.find({age: {$lt: 18}}).count()
+13
+```
+
+Operatori di confronto:
+
+| Sintassi | Significato |
+| -------- | ----------- |
+| $gt      | $\gt$       |
+| $lt      | $\lt$       |
+| $gte     | $\geq$      |
+| $lte     | $\leq$      |
+| $ne      | $\neq$      |
+| $eq      | $=$         |
+Operatori inclusione
+
+|     |     |
+| --- | --- |
+|     |     |
+|     |     |
+Operatori logici
