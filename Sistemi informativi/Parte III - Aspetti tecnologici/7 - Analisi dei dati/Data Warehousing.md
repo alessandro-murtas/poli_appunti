@@ -1,5 +1,5 @@
 ### Data Warehouse
-Un data warehouse è un sistema [[1 - Introduzione#OLAP|OLAP]], si distingue così da un normale DBMS che è un [[1 - Introduzione#OLTP|OLTP]].
+Un data warehouse è un sistema [[Sistemi informativi#OLAP|OLAP]], si distingue così da un normale DBMS che è un [[Sistemi informativi#OLTP|OLTP]].
 Il DW è quindi una base di dati che raccoglie dati sintetici, integrati e strutturati e di tipo storico di interesse per un'organizzazione.
 È definito anche come l'insieme di tutte le operazioni atte alla popolazione del db, al suo mantenimento, e tutte le tecniche di interrogazione che permettono di estrarre le informazioni dal db direzionale.
 Un DW gode delle seguenti caratteristiche:
