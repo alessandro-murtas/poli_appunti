@@ -18,3 +18,4 @@ Strutturata su 3 livelli, dal basso:
 2. Attività tattiche (programmazione e controllo)
 3. Attività strategiche (pianificazione strategica)
 ### Catena del valore di Porter
+![[Porter.png]]
