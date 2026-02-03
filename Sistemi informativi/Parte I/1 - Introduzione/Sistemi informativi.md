@@ -13,3 +13,16 @@ Le proprietà [[Introduzione|ACID]] non sono rilevanti poiché le operazioni son
 - Informational: i dati devono contenere tutte le informazioni di interesse
 ### OLTP
 Un sistema OLTP (On Line Transaction Processing)
+
+## Confronto
+
+|                 | OLTP                                                     | OLAP                                              |
+| --------------- | -------------------------------------------------------- | ------------------------------------------------- |
+| Utente          | Impiegato (molti)                                        | Dirigente (pochi)                                 |
+| Funzione        | Operazioni giornaliere                                   | Supporto alle decisioni                           |
+| Progettazione   | Orientata all'applicazione                               | Orientata al soggetto                             |
+| Dati            | Correnti, aggiornati, dettagliati, relazionali, omogenei | Storici, aggregati, multidimensionali, eterogenei |
+| Uso             | Ripetitivo                                               | Casuale                                           |
+| Accesso         | Lettura/Scrittura, indicizzato                           | Lettura, sequenziale                              |
+| Unità di lavoro | Transazione breve (CRUD)                                 | Interrogazione complessa                          |
+| Metrica         | Throughput                                               | Tempo di risposta                                 |
