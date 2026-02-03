@@ -2,6 +2,8 @@ Un sistema informativo è un insieme di procedure, metodi e strumenti dedicati a
 > “Un sistema informativo è definito come l’insieme dei mezzi, della conoscenza organizzativa e delle competenze tecniche per gestire la risorsa informazione”
 
 ![[Sistema informativo.png]]
+# Sistemi OLTP e OLAP
+I sistemi informativi possono anche essere definiti come un insieme di applicazioni che interagiscono con basi di dati. Con il termine **transazione** in
 ### OLAP
 Un sistema OLAP (On Line Analytical Processing) è caratterizzato da poche transazioni e interrogazioni complesse che richiedono aggregazioni di grandi quantità di dati.
 L'efficienza e l'efficacia di un sistema OLAP si misurano con il tempo di risposta.
