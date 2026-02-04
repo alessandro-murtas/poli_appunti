@@ -12,7 +12,7 @@ I sistemi informativi possono anche essere definiti come un insieme di applicazi
 - Attività operative che contribuiscono alla produzione di beni o all'erogazione di servizi
 - Movimentazioni di oggetti fisici interni (es. assemblaggio di una scheda elettronica) o esterni all'azienda (es. spedizione di un bene al cliente)
 - Certificazione di eventi (es. pagamento fattura, inserimento nuovo prodotto a catalogo)
-- Insieme di operazioni che modificano lo stato del database lasciandolo in uno stato consistente. (Transazioni [[Introduzione|ACID]])
+- Insieme di operazioni che modificano lo stato del database lasciandolo in uno stato consistente. (Transazioni [[Basi di dati/Introduzione|ACID]])
 ### OLAP
 Un sistema OLAP (On Line Analytical Processing) è caratterizzato da poche transazioni e interrogazioni complesse che richiedono aggregazioni di grandi quantità di dati.
 L'efficienza e l'efficacia di un sistema OLAP si misurano con il tempo di risposta.
