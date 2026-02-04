@@ -2,6 +2,10 @@ Un sistema informativo è un insieme di procedure, metodi e strumenti dedicati a
 > “Un sistema informativo è definito come l’insieme dei mezzi, della conoscenza organizzativa e delle competenze tecniche per gestire la risorsa informazione”
 
 ![[Sistema informativo.png]]
+# Classificazione sistemi informativi
+Secondo la [[Le organizzazioni#Piramide di Anthony|piramide di Anthony]]:
+- sistemi informativi **operazionali**
+- sistemi informativi **decisionali**
 # Sistemi OLTP e OLAP
 I sistemi informativi possono anche essere definiti come un insieme di applicazioni che interagiscono con basi di dati. Con il termine **transazione** in un sistema informativo ci si riferisce a una categoria ampia di concetti che comprende:
 - Scambi o contratti interni o esterni all'azienda (es. invio ordine a fornitore, ricezione ordine di un cliente)
