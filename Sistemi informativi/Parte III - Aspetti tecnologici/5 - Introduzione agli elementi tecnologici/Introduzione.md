@@ -31,3 +31,4 @@ Tecnologie per gestire la comunicazione tra applicativi e componenti.
 #### Tecnologie avanzate
 Sistemi di messaggistica, di gestione di eventi e delle transazioni in grado di supportare l'integrazione e la comunicazione tra applicazioni.
 ## Livello di architettura fisica
+Le tecnologie a livello di architettura fisica comprendono i paradigmi con cui si possono allocare le applicazioni alle macchine fisiche come il cloud computing.
