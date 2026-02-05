@@ -1,5 +1,21 @@
 L'ERP (Enterprise Resource Planning) è una suite software con moduli a supporto del sistema operazionale e delle transazioni interne all'organizzazione finalizzate alla gestione dell'impresa. Un sistema ERP copre interamente la [[Le organizzazioni#Catena del valore di Porter|catena del valore di Porter]].
 ## Proprietà
-- Unicità dell'informazione: solo una rappresentazione logica dei dati valida per ogni modulo all’interno dell’ERP. Tutti i moduli vedono gli stessi valori: si risolvono in questo modo i problemi di ridondanza e incongruenza dei dati.
-- Modularità: la suite è composta da moduli autosufficienti che possono essere acquisiti e integrati in modo incrementale. La modularità 
-- Prescrittività
+- *Unicità dell'informazione*: solo una rappresentazione logica dei dati valida per ogni modulo all’interno dell’ERP. Tutti i moduli vedono gli stessi valori: si risolvono in questo modo i problemi di ridondanza e incongruenza dei dati.
+- *Modularità*: la suite è composta da moduli autosufficienti che possono essere acquisiti e integrati in modo incrementale. La modularità abilita nuove strategie di acquisizione dei COTS:
+	- *One stop shopping*: tutti i moduli vengono acquistati da un singolo fornitore
+	- *Best of Breed*: i moduli vengono comprati da fornitori diversi (interoperabilità non è garantita, sforzo di integrazione necessario)
+- *Prescrittività*: questi prodotti incorporano la logica di funzionamento dell'impresa, codificata anche nelle business rules. È l'azienda che si adatta al software e non viceversa. Solitamente è un vantaggio per l'azienda poiché la logica incorporata viene progettata ispirandosi alle best practices del settore o a processi ben noti e ottimizzati.
+## Funzionalità
+I moduli di un ERP si possono dividere in:
+- Istituzionali
+	- Gestione risorse umane
+	- Gestione amministrativa
+	- Gestione progetti e contabilità investimenti
+- Settoriali (attività primarie):
+	- Logistica (ingresso e uscita)
+	- Pianificazione risore
+	- Acquisti
+	- Gestione produzione
+	- 
+- Direzionali
+	- 
