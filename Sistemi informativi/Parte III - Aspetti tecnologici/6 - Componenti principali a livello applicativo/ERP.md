@@ -23,10 +23,19 @@ I moduli di un ERP si possono dividere in:
 	- ABC (Activity Based Costing)
 	- Balance scorecard
 	- Cruscotti direzionali
+Questi moduli compongono l'ERP core. Nell'ERP esteso troviamo i portali aziendali e i sistemi di interazione:
+- SCM - Supply Chain Management: software per la gestione della supply chain che fornisce informazioni a supporto delle decisioni di acquisto e scheduling della produzione.
+- [[CRM|CRM - Customer Relationship Management]]: supporta l'interazione con il cliente, dal contatto al post vendita, per fornire servizi avanzati per fidelizzarlo e aumentare la soddisfazione.
+- PLM - Product Lifecycle Management: gestisce i prodotti seguendoli lungo il loro ciclo di vita, dalla loro ideazione alla realizzazione.
+Possono far parte della suite ERP o essere acquisiti da altri fornitori.
 ## Aspetti architetturali
-
+![[Evoluzione architettura.png]]
+L'evoluzione architetturale degli ERP ha portato a una diminuzione dei costi di gestione e acquisizione grazie a:
+- Esternalizzazione
+- Adozione logica a servizi riduce costi per il vendor
+- Tariffazione a consumo (costo di solito minore del tradizionale costo di acquisizione)
 ## Implementazione
-
+ERP vengono sviluppati per insieme di imprese dello stesso settore *merceologico* (dominio applicativo). Quindi esistono diverse suite per diversi settori: le suite per imprese manifatturiere ricalcano la [[Le organizzazioni#Catena del valore di Porter|catena del valore di Porter]] mentre 
 ## Benefici
 Vantaggi di efficienza legati al risparmio di tempi e di costi su attività operative grazie all'automazione e l'integrazione delle procedure.
 Vantaggi di efficacia legati all'unicità dei dati, alla capacità di elaborare e veicolare le informazioni e alla standardizzazione delle piattaforme IT.
