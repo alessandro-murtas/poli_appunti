@@ -7,15 +7,26 @@ L'ERP (Enterprise Resource Planning) è una suite software con moduli a supporto
 - *Prescrittività*: questi prodotti incorporano la logica di funzionamento dell'impresa, codificata anche nelle business rules. È l'azienda che si adatta al software e non viceversa. Solitamente è un vantaggio per l'azienda poiché la logica incorporata viene progettata ispirandosi alle best practices del settore o a processi ben noti e ottimizzati.
 ## Funzionalità
 I moduli di un ERP si possono dividere in:
-- Istituzionali
+- Istituzionali (orizzontali)
 	- Gestione risorse umane
 	- Gestione amministrativa
 	- Gestione progetti e contabilità investimenti
-- Settoriali (attività primarie):
+- Settoriali o attività primarie (verticali):
 	- Logistica (ingresso e uscita)
-	- Pianificazione risore
+	- Pianificazione risorse
 	- Acquisti
 	- Gestione produzione
-	- 
-- Direzionali
-	- 
+	- Vendite
+- Direzionali (orizzontali)
+	- Pianificazione strategica
+	- Controllo budgetario
+	- ABC (Activity Based Costing)
+	- Balance scorecard
+	- Cruscotti direzionali
+## Aspetti architetturali
+
+## Implementazione
+
+## Benefici
+Vantaggi di efficienza legati al risparmio di tempi e di costi su attività operative grazie all'automazione e l'integrazione delle procedure.
+Vantaggi di efficacia legati all'unicità dei dati, alla capacità di elaborare e veicolare le informazioni e alla standardizzazione delle piattaforme IT.
