@@ -16,6 +16,7 @@
 - Descrivere le caratteristiche degli algoritmi di hash e il loro ruolo nelle fasi di creazione e verifica di una firma digitale (06-2023, 01-2024)
 - Descrivere la struttura di una PKI e il suo ruolo garantire la sicurezza di un sistema basato su crittografia asimmetrica (07-2023)
 - Descrivere quali sono i servizi di sicurezza possibili grazie all'uso di crittografia a chiave pubblica e come questi vengono implementati (02-2024)
+- Crittografia asimmetrica (2026-01)
 ### ERP
 - Descrivere il principio di prescrittività di un ERP 
 - Elencare e descrivere brevemente le caratteristiche principali di un ERP con maggiore dettaglio sulla prescrittività (06-2022)
@@ -44,3 +45,6 @@
 - Descrivere il ruolo di un hypervisor e le sue possibili configurazioni
 - Descrivere similitudini e differenze tra politiche discrezionali e mandatorie nel controllo degli accessi
 - Illustrare gli alberi di decisione e i criteri per la loro valutazione
+- definizione di sistema informativo e informatico
+- piramide dikw
+- studio di fattibilità
