@@ -33,35 +33,43 @@ Composto da:
 - Espansione isoentropica (non varia entropia)
 - Compressione isoterma
 - Compressione isoentropica
+
 Rendimento: $\eta_\text{Carnot}=1-\frac{T_i}{T_s}$
 Coefficiente di prestazione: $COP=\frac{T_i}{T_i-T_s}$
 <center><img src="Ciclo Carnot pv.png" height=200>  <img src="Ciclo Carnot ts.png" height=200></center>
+
 ### Ciclo Otto
 1. Compressione isoentropica
 2. Trasformazione isocora
 3. Espansione isoentropica
 4. Trasformazione isocora
+
 Rapporto di compressione: $r=\frac{V_\text{max}}{V_\text{min}}$
 Rendimento: $\eta_\text{Otto}=1-\frac{1}{r^{k-1}}$
 <center><img src="Ciclo Otto pv.png" height=200>  <img src="Ciclo Otto ts.png" height=200></center>
+
 ### Ciclo Diesel
 1. Compressione isoentropica
 2. Espansione isobara
 3. Espansione isoentropica
 4. Trasformazione isocora
 <center><img src="Ciclo Diesel pv.png" height=200>  <img src="Ciclo Diesel ts.png" height=200></center>
+
 ### Ciclo Joule-Brayton
 1. Compressione isoentropica
 2. Espansione isobara
 3. Espansione isoentropica
 4. Compressione isobara
+
 Rapporto manometrico di compressione: $\beta=\frac{p_2}{p_1}$
 Coefficiente dilatazione adiabatica: $k=\frac{c_p}{c_v}$
 Rendimento: $\eta_\text{Brayton}=1-\frac{1}{\beta^{(k-1)/k}}$
 Rendimento massimo per $\beta=(T_\text{max}-T_\text{min})^{k/[2(k-1)]}$
 <center><img src="Ciclo Brayton pv.png" height=200>  <img src="Ciclo Brayton ts.png" height=200></center>
+
 ### Ciclo di Rankine
 <center><img src="Ciclo Rankine ts.png" height=200></center>
+
 ### Macchine frigorifere e pompe di calore
 $COP_F=\frac{1}{Q_s/Q_i-1}\hspace{1cm}COP_\text{F,rev}=\frac{1}{T_s/T_i-1}$
 $COP_\text{PDC}=\frac{1}{1-Q_i/Q_s}\hspace{0.48cm}COP_\text{PDC,rev}=\frac{1}{1-T_i/T_s}$
@@ -70,6 +78,7 @@ $COP_\text{PDC}=\frac{1}{1-Q_i/Q_s}\hspace{0.48cm}COP_\text{PDC,rev}=\frac{1}{1-
 2. Compressione isobara (cede calore)
 3. Laminazione isoentalpica (espansione)
 4. Espansione isobara (assorbe calore)
+
 $COP_F=\frac{q_i}{l_{n,e}}=\frac{h_1-h_4}{h_2-h_1}$
 $COP_{PDC}=\frac{q_s}{l_{n,e}}=\frac{h_2-h_3}{h_2-h_1}$
 <center><img src="Ciclo inverso vapore ideale.png" height=200/></center>

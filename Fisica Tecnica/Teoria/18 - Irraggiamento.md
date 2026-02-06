@@ -19,6 +19,7 @@ Ci sono 3 coefficienti:
 - riflessione $\rho=\frac{\text{rad. riflessa}}{\text{rad. incidente}}=\frac{G_\text{rif}}{G}$
 - trasmissione: $\tau=\frac{\text{rad. trasmessa}}{\text{rad. incidente}}=\frac{G_\text{tr}}{G}$
 <center><img src="Coefficienti emissivita.png" height=200/></center>
+
 Irradiazione $G$: radiazione incidente su una superficie
 $G_\text{rif}+G_\text{ass}+G_\text{tr}=G$
 Su qualsiasi superficie: $\alpha+\rho+\tau=1$

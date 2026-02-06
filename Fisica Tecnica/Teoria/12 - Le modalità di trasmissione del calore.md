@@ -18,8 +18,10 @@ Nei solidi ciò avviene per la vibrazione delle molecole nel loro reticolo e all
 ### Legge di Fourier della conduzione del calore
 <center><img src="Conduzione calore.png" alt="drawing" width="250"/></center>
 Potenza termica trasmessa per conduzione (misurata in $W$):
+
 $$\dot Q_{cond}=\lambda A\frac{T_1-T_2}{\Delta x}=\lambda A\frac{\Delta T}{\Delta x}$$
 Per spessori $x$ infinitesimali:
+
 $$\dot Q_{cond}=-\lambda A\frac{dT}{dx}$$
 **Conduttività termica $\lambda$**: rappresenta la capacità del materiale a condurre calore e si misura in $W/m\cdot \degree C$. Per valori elevati si dice che il materiale è un buon conduttore, al contrario per valori bassi il materiale è un cattivo conduttore o **isolante**.
 **Gradiente di temperatura $\frac{dT}{dx}$**: Pendenza curva temperatura su un diagramma $T$-$x$
