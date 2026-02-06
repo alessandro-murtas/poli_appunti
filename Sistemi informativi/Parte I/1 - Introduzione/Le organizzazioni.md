@@ -17,6 +17,7 @@ Strutturata su 3 livelli, dal basso:
 1. Attività operative (livello operazionale)
 2. Attività tattiche (programmazione e controllo)
 3. Attività strategiche (pianificazione strategica)
+
 ![[Anthony.png]]
 ### Catena del valore di Porter
 Le attività nella catena del valore di porter si dividono in:
@@ -32,4 +33,5 @@ Le attività nella catena del valore di porter si dividono in:
 	- R&D
 	- Approvvigionamenti: ordina le merci e i servizi necessari alle altre attività (principalmente le attività di operations)
 - Margine
+
 ![[Porter.png]]

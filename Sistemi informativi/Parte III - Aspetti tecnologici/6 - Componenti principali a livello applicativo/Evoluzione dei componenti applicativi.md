@@ -3,6 +3,7 @@ Le applicazioni si possono strutturare secondo 3 livelli logici:
 - Logica di presentazione (GUI/UI/Frontend)
 - Logica applicativa
 - Logica di accesso ai dati
+
 Da un punto di vista architetturale, le applicazioni si dividono in:
 - Applicazioni monolitiche: livelli logici contenuti all’interno di uno stesso software artifact
 - Applicazioni distribuite: livelli logici scomposti su diversi software artifact che comunicano tra di loro. A sua volta divise in:
