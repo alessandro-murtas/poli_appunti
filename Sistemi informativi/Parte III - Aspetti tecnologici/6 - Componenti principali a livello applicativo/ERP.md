@@ -35,7 +35,10 @@ L'evoluzione architetturale degli ERP ha portato a una diminuzione dei costi di 
 - Adozione logica a servizi riduce costi per il vendor
 - Tariffazione a consumo (costo di solito minore del tradizionale costo di acquisizione)
 ## Implementazione
-ERP vengono sviluppati per insieme di imprese dello stesso settore *merceologico* (dominio applicativo). Quindi esistono diverse suite per diversi settori: le suite per imprese manifatturiere ricalcano la [[Le organizzazioni#Catena del valore di Porter|catena del valore di Porter]] mentre 
+ERP vengono sviluppati per insieme di imprese dello stesso settore *merceologico* (dominio applicativo). Quindi esistono diverse suite per diversi settori: i moduli delle suite per imprese manifatturiere ricalcano le funzionalità della [[Le organizzazioni#Catena del valore di Porter|catena del valore di Porter]] ma alcune industrie (es. siderurgiche) seguono un modello leggermente diverso e perciò la suite software sarà composta da moduli diversi.
+Anche se ERP sono verticalizzati su settore, aziende hanno esigenze diverse, per questo motivo software possono essere configurati in 2 passaggi:
+1. Parametrizzazione: abilitazione o disabilitazione funzionalità, settaggio parametri o selezione versione specifica di funzione
+2. Personalizzazione (opzionale): modifiche al codice laddove parametrizzazione non è sufficiente
 ## Benefici
 Vantaggi di efficienza legati al risparmio di tempi e di costi su attività operative grazie all'automazione e l'integrazione delle procedure.
 Vantaggi di efficacia legati all'unicità dei dati, alla capacità di elaborare e veicolare le informazioni e alla standardizzazione delle piattaforme IT.
