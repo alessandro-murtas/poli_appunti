@@ -34,9 +34,12 @@ Nel processo di ETL vengono generati metadati che riguardano:
 DFM: Dimensional Fact Model
 ### Modelli logici
 ##### MOLAP
+Supporto nativo per dati multidimensionali
 ##### ROLAP
+OLAP relazionale, uso modello logico-relazionale per supportare multi-dimensionalità
 Stella o fiocco di neve
 ##### HOLAP
+Usa ROLAP per DW e MOLAP per datamart
 ### Operazioni
 Operazioni di aggregazione:
 - Roll up: comprimo
