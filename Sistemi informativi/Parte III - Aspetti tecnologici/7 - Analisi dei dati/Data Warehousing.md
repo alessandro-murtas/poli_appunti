@@ -9,3 +9,24 @@ Un DW gode delle seguenti caratteristiche:
 - Persistente: una volta inseriti i dati tipicamente non vengono più modificati.
 ### Architettura di un DW
 ### ETL
+Procedimento per caricare i dati in un DW, composto da 3 passaggi:
+1. Extraction
+	1. Definisce quali dati vanno esaminati
+	2. Statica (carica tutto) o incrementale (caricati solo dati aggiunti/modificati dall'ultima volta)
+2. Transformation
+	1. Modifica dati analizzati
+	2. Pulizia
+	3. Riconciliazione
+	4. Standardizzazione formati
+		1. Congiunzione/spezzettamento: es. divido l'indirizzo in via, città, provincia o viceversa li aggrego in un solo campo
+		2. Standardizzazione codici classificazione
+		3. Standardizzazione formato dati
+	5. Eliminazione duplicati
+3. Loading
+	1. Caricamento dati nel DW
+### Metadati
+Nel processo di ETL vengono generati metadati che riguardano:
+- Struttura del DW
+- Metadati operazionali: storia e fonte dei dati
+- Mappatura: trasformazioni subite
+- Statistiche d'uso del DW
