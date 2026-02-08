@@ -1,3 +1,6 @@
+Gli algoritmi di data mining possono essere:
+- Supervisionati/non supervisionati
+- Descrittivi/predittivi
 ### Algoritmi di classificazione
 Caratteristiche:
 - Accuratezza
