@@ -30,3 +30,19 @@ Nel processo di ETL vengono generati metadati che riguardano:
 - Metadati operazionali: storia e fonte dei dati
 - Mappatura: trasformazioni subite
 - Statistiche d'uso del DW
+### Modello concettuale
+DFM: Dimensional Fact Model
+### Modelli logici
+##### MOLAP
+##### ROLAP
+Stella o fiocco di neve
+##### HOLAP
+### Operazioni
+Operazioni di aggregazione:
+- Roll up: comprimo
+- Drill down: espando
+Operazioni di filtraggio:
+- Slice (1 coordinata fissata)
+- Dice (2 o più coordinate fissate)
+### Ciclo di vita
+Progettazione iterativa, si parte dal **fatto** e si modella ipercubo
