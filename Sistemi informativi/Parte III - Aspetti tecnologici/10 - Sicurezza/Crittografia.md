@@ -9,7 +9,6 @@ Contro:
 ### Asimmetrica
 Pro: non c'è scambio di chiavi
 Contro: lentezza computazione
-
 ### Hash
-
+### Firma digitale
 ### PKI

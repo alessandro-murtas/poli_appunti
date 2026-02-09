@@ -14,4 +14,9 @@ Intrusion Prevention (IP): prevenzione accessi ed atti malevoli (eg. firewall)
 IDS: sistemi che supportano/automatizzano ID
 
 In base a sorgente informazione:
-- 
+- Network based IDS
+- Hosted based IDS
+
+In base a tipo di analisi:
+- Misuse detection
+- Anomaly detection
