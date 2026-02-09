@@ -1,0 +1,4 @@
+- Integrità
+- Autenticità
+- Riservatezza: l'asset deve essere disponibile **solo** a chi ne ha diritto
+- Disponibilità: l'asset deve essere accessibile a chi ne ha diritto

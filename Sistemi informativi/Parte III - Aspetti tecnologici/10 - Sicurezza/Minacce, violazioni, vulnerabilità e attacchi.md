@@ -1,0 +1,22 @@
+### Minacce
+- Fisiche: colpiscono asset fisici
+- Logiche: colpiscono asset astratti
+	- Furto di dati
+	- Creazione di backdoors
+- Accidentali
+	- Bugs
+	- Errori di configurazione
+### Attacchi
+- Sniffing: lettura di pacchetti
+- Spoofing: invio di pacchetti
+- Hijacking: man-in-the-middle (sniffing + spoofing)
+- Flooding: intasamento rete (ddos)
+- Phishing: truffa con messaggi verosimili
+- Malware
+	- Virus: infetta i file
+	- Worm: si riproduce
+	- Trojan: si finge un programma legittimo
+	- Ransomware: riscatto
+- Backdoor: sfrutta vulnerabilità inserite intenzionalmente
+- Spyware: raccolta informazioni
+- Zero-day: immediato
