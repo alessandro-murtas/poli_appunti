@@ -1,12 +1,14 @@
-Verticale:
-- Aumento capacità di ogni nodo (nodo più potente)
-- Aumento prestazioni non lineare
+Con scalabilità di una architettura IT si intende la capacità dell’infrastruttura di soddisfare richieste crescenti da parte degli utenti (o di un maggiore numero di utenti) con aggiornamenti adeguati.
+Può essere:
+- Verticale
+	- Aumento capacità di ogni nodo (nodo più potente)
+	- Aumento prestazioni non lineare
+- Orizzontale
+	- Aumento numero nodi
+	- Upgrade complesso
+	- Downsizing: server di fascia bassa hanno costi inferiori a server di fascia alta o mainframe, a parità di potenza di calcolo complessiva installata.
 
-Orizzontale:
-- Aumento numero nodi
-- Upgrade complesso
-- Downsizing
-
+Concetto di scalabilità è legato a quello di *elasticità*, importante nel cloud computing e coincide con una scalabilità orizzontale reversibile, dove il numero di nodi cresce o diminuisce in base al numero di richieste
 #### Availability
 Grado di funzionamento e accessibilità del sistema o componente quando è necessario per l'uso
 $$\text{Availability}=\frac{\text{Uptime}}{\text{Uptime}+\text{Downtime}}$$
