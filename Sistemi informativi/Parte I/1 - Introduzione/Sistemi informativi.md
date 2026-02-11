@@ -22,6 +22,7 @@ Le proprietà *ACID* non sono rilevanti poiché le operazioni sono di sola lettu
 - Shared: più utenti con diversi permessi di accesso ai dati
 - Multidimensional: visione multidimensionale dei dati
 - Informational: i dati devono contenere tutte le informazioni di interesse
+
 I sistemi OLAP sono idonei alla gestione di processi a livello strategico.
 ### OLTP
 Un sistema OLTP (On Line Transaction Processing) tratta operazioni caratterizzate da molte transazioni brevi e online (CRUD). Sono focalizzati sulla rapidità delle query, sull'integrità dei dati in ambienti multi accesso e sul garantire efficacia ed efficienza del sistema misurabile in transazioni al secondo (throughput).

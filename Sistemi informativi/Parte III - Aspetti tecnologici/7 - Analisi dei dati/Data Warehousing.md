@@ -5,7 +5,7 @@ Il DW è quindi una base di dati che raccoglie dati sintetici, integrati e strut
 Un DW gode delle seguenti caratteristiche:
 - Orientato alle entità: considera le principali entità di analisi. (ad esempio vendite, ordini, prodotti...)
 - Integrato: i dati vengono sia da fonti interne che da fonti esterne all'azienda. Vanno quindi resi consistenti e integrati.
-- Variabile nel tempo: un dw memorizza dati storici. A ogni dato inserito è associato un'etichetta temporale che identifica il periodo di riferimento.
+- Variabile nel tempo: un DW memorizza dati storici. A ogni dato inserito è associato un'etichetta temporale che identifica il periodo di riferimento.
 - Persistente: una volta inseriti i dati tipicamente non vengono più modificati.
 ### Architettura di un DW
 ### ETL
