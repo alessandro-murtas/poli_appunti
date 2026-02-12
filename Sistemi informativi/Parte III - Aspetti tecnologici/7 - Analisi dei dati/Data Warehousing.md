@@ -44,6 +44,7 @@ Usa ROLAP per DW e MOLAP per datamart
 Operazioni di aggregazione:
 - Roll up: comprimo
 - Drill down: espando
+
 Operazioni di filtraggio:
 - Slice (1 coordinata fissata)
 - Dice (2 o più coordinate fissate)

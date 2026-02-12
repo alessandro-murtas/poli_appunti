@@ -42,7 +42,7 @@
 - Nell’ambito di un’architettura a due tier chiarire la differenza tra un thin client e un thick(fat) client illustrandone vantaggi e svantaggi
 - Descrivere i possibili metodi di controllo degli accessi alle basi di dati
 - Illustrare la struttura e discutere gli obiettivi del framework di Zachman (07-2022)
-- Descrivere il ruolo di un hypervisor e le sue possibili configurazioni
+- Descrivere il ruolo di un hypervisor e le sue possibili configurazioni (bare-metal/hosted)
 - Descrivere similitudini e differenze tra politiche discrezionali e mandatorie nel controllo degli accessi
 - Illustrare gli alberi di decisione e i criteri per la loro valutazione
 - definizione di sistema informativo e informatico
