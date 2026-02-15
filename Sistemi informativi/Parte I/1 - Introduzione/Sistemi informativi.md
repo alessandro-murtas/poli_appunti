@@ -1,5 +1,5 @@
 Un sistema informativo è un insieme di procedure, metodi e strumenti dedicati allo svolgimento di alcune funzioni per il raggiungimento di un risultato.
-> “Un sistema informativo è definito come l’insieme dei mezzi, della conoscenza organizzativa e delle competenze tecniche per gestire la risorsa informazione”
+> “Un sistema informativo è definito come l’insieme dei mezzi, della conoscenza organizzativa e delle competenze tecniche per gestire la [[Le organizzazioni#Risorsa|risorsa]] informazione”
 
 ![[Sistema informativo.png]]
 # Classificazione sistemi informativi
