@@ -1,3 +1,7 @@
+### Regole associative
+Supporto: $P(A,B)$
+Confidenza: $P(B|A)=P(A,B)/P(A)$
+### Algoritmi DM
 Gli algoritmi di data mining possono essere:
 - Supervisionati/non supervisionati
 - Descrittivi/predittivi
@@ -10,8 +14,8 @@ Caratteristiche:
 - Interpretabilità
 ##### Alberi decisionali
 Caratteristiche:
-- Precision
-- Recall
+- Precision = TP/(TP+FP)
+- Recall = TP/(TP+FN)
 ### Algoritmi clustering
 Permettono di raggruppare elementi senza conoscere a priori le classi.
 Caratteristiche:
