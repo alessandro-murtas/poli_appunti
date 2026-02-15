@@ -1,0 +1,5 @@
+- Punto-punto
+- Hub-and-spoke
+- BPMS
+- Processo a servizi
+- Composizione e dinamica dei servizi
