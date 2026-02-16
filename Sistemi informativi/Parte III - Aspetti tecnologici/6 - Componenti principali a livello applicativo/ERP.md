@@ -23,6 +23,7 @@ I moduli di un ERP si possono dividere in:
 	- ABC (Activity Based Costing)
 	- Balance scorecard
 	- Cruscotti direzionali
+
 Questi moduli compongono l'ERP core. Nell'ERP esteso troviamo i portali aziendali e i sistemi di interazione:
 - SCM - Supply Chain Management: software per la gestione della supply chain che fornisce informazioni a supporto delle decisioni di acquisto e scheduling della produzione.
 - [[CRM|CRM - Customer Relationship Management]]: supporta l'interazione con il cliente, dal contatto al post vendita, per fornire servizi avanzati per fidelizzarlo e aumentare la soddisfazione.
