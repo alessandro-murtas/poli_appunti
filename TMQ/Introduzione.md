@@ -1,0 +1,2 @@
+
+Validazione: know-how
