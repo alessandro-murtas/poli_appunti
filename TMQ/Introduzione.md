@@ -6,11 +6,13 @@ Validazione: know-how
 <center><img src="Spicchio.png" width=200px>  <img src="Spicchio formaggio.png" height="200px" ```xml
 style="transform:rotate(-90deg);"
 ```></center>
+
 $P_{av}$
 
-
 FORMULE
+
 ![[Rullo.png]]
+
 Arco di contatto: $L=R\alpha_0$
 $$(1-\cos\alpha_0)R=\frac{\Delta h}{2}$$
 $$L\approx\sqrt{R\Delta h}$$
