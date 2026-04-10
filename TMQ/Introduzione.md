@@ -5,4 +5,4 @@ Validazione: know-how
 
 ### Massello cilindrico
 <center><img src="Spicchio.png" width=200px>  <img src="Spicchio formaggio.png" width="200px"></center>
-$P_{av$
+$P_{av}$
