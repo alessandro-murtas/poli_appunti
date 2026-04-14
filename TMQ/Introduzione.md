@@ -23,3 +23,5 @@ La condizione di imbocco è $\tau \geq \alpha_0$
 Forza verticale:
 $$F_v=p_{av}bL=p_{av}b\sqrt{R\Delta h}$$
 Pressione media: $p_{av}=\frac{2}{\sqrt3} Y\left(1+\frac{\mu a}{h} \right)$
+
+### Forgiatura
