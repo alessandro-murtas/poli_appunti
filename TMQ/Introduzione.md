@@ -25,3 +25,11 @@ $$F_v=p_{av}bL=p_{av}b\sqrt{R\Delta h}$$
 Pressione media: $p_{av}=\frac{2}{\sqrt3} Y\left(1+\frac{\mu a}{h} \right)$
 
 ### Forgiatura
+$p_{av}=Y\cdot\left(1+\frac{2\mu r_i}{3h_i}\right)$
+### Trafilatura
+$R=\frac{A_0}{A_1}=\frac{A_1}{A_2}=...=\frac{A_{n-1}}{A_n}$, $A_0=A_n\cdot R^n$
+$r_{max}=1-\frac{1}{e}$
+$$r_i=\frac{A_{i-1}-A_i}{A_{i-1}}$$
+$R_{max}=e$
+$\frac{A_0}{A_n}=R^n=e^{n_{min}}$
+$n_{min}=\ln{\frac{A_0}{A_n}}$
