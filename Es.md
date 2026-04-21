@@ -1,9 +1,0 @@
-e=-0,16
-h0=50mm
-d0=40mm
-A0=pi(d0^2/4)
-A1h1=A0h0
-A1=A0h0/h1
-d1=2radice di (A0h0/h1pi)
-e=ln(h0/h1)
-h1=h0e^e
