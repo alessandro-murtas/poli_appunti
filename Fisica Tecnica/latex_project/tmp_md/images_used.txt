@@ -1,0 +1,15 @@
+Camera di miscelazione.png
+Ciclo Brayton pv.png
+Ciclo Brayton ts.png
+Ciclo Carnot pv.png
+Ciclo Carnot ts.png
+Ciclo Diesel pv.png
+Ciclo Diesel ts.png
+Ciclo inverso vapore ideale.png
+Ciclo Otto ts.png
+Ciclo Rankine ts.png
+Coefficienti emissivita.png
+Conduzione calore.png
+Fasi.png
+Miscelatore 1.png
+Miscelatore 2.png

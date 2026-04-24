@@ -1,0 +1,13 @@
+Teoria/2 - Introduzione.md
+Teoria/3 - Energia.md
+Teoria/4 - Proprietà delle sostanze pure.md
+Teoria/5 - Analisi energetica dei sistemi chiusi.md
+Teoria/6 - Analisi dei volumi di controllo in base alla conservazione della massa e dell’energia.md
+Teoria/8 - Entropia.md
+Teoria/12 - Le modalità di trasmissione del calore.md
+Teoria/13 - Conduzione.md
+Teoria/15 - Convezione forzata esterna.md
+Teoria/16 - Convezione forzata interna.md
+Teoria/17 - Convezione naturale.md
+Teoria/18 - Irraggiamento.md
+Termodinamica.md

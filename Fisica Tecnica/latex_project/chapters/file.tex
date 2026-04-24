@@ -1,0 +1,193 @@
+\section{Termodinamica}
+\subsection{Trasformazioni}
+
+\begin{longtable}[]{@{}lccccc@{}}
+\toprule
+\begin{minipage}[b]{0.07\columnwidth}\raggedright
+Tipo\strut
+\end{minipage} & \begin{minipage}[b]{0.13\columnwidth}\centering
+\(W\)\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\centering
+\(Q\)\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\centering
+\(\Delta U\)\strut
+\end{minipage} & \begin{minipage}[b]{0.39\columnwidth}\centering
+Costanti\strut
+\end{minipage} & \begin{minipage}[b]{0.05\columnwidth}\centering
+\(n\)\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+Politropica\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\(pV^n\)\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\(n\)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+Isocora\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering
+0\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\(nc_v\Delta T\)\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\(Q\)\strut
+\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\(\frac{p}{T}\)\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\(\infty\)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+Isobara\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering
+\(p\Delta V\)\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\(nc_p\Delta T\)\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\(nc_v\Delta T\)\strut
+\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\(\frac{V}{T}\)\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\(0\)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+Isoterma\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering
+\(nRT\ln{(V_f/V_i)}\)\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\(W\)\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+0\strut
+\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\(pV\)\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\(1\)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.07\columnwidth}\raggedright
+Adiabatica\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering
+\(-\Delta U\)\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+0\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\(nc_v\Delta T\)\strut
+\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\(pV^\gamma , Tp^{\frac{1-\gamma}{\gamma}}, TV^{\gamma-1}\)\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\(\gamma\)\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+Equazione di stato dei gas perfetti: \(pV=nRT\) Energia:
+\(U=nc_vT\implies \Delta U = nc_v\Delta T\) Primo principio della
+termodinamica: \(\Delta U = Q-W\) Costante dei gas perfetti:
+\(R=8.314 \frac{J}{mol\cdot K}\) Costante specifica del gas: \(R^*=R/M\)
+(\(\frac{J}{kg\cdot K}\)) Relazione di Meyer: \(R=c_p-c_v\) Costante
+gamma: \(\gamma=\frac{c_p}{c_v}\) Calore specifico molare in gas
+monoatomici: \(c_v=\frac{3}{2}R\), \(c_p=\frac{5}{2}R\),
+\(\gamma=\frac{5}{3}\) Calore specifico molare in gas biatomici:
+\(c_v=\frac{5}{2}R\), \(c_p=\frac{7}{2}R\), \(\gamma=\frac{7}{5}\)
+Calore specifico molare in gas poliatomici: \(c_v=3R\), \(c_p=4R\),
+\(\gamma=\frac{4}{3}\) Lavoro: \[L_{AB}=\int_A^B p(V)dv\] Variazione
+entropia:
+\[\Delta S_{AB}=nc_p\ln{\left(\frac{T_B}{T_A}\right)}-nR\ln{\left(\frac{p_B}{p_A}\right)}=nc_v\ln{\left(\frac{T_B}{T_A}\right)}+nR\ln{\left(\frac{V_B}{V_A}\right)}\]
+Variazione entropia specifica:
+\[\Delta s_{AB}=\frac{\Delta S_{AB}}{n}=c_p\ln{\left(\frac{T_B}{T_A}\right)}-R\ln{\left(\frac{p_B}{p_A}\right)}=c_v\ln{\left(\frac{T_B}{T_A}\right)}+R\ln{\left(\frac{V_B}{V_A}\right)}\]
+\#\# Macchine e cicli In un ciclo l'energia interna rimane costante:
+\(A = B \implies \Delta U= 0\) Macchina termica Lavoro:
+\(W = Q_A-|Q_C|\) Rendimento:
+\(\eta =\frac{W}{Q_A}=1-\frac{|Q_C|}{Q_A}\) Il rendimento in linea
+generale aumenta all'aumentare della differenza di temperatura in
+ingresso e in uscita. \#\#\# Ciclo di Carnot Composto da: - Espansione
+isoterma (non varia temperatura) - Espansione isoentropica (non varia
+entropia) - Compressione isoterma - Compressione isoentropica
+
+Rendimento: \(\eta_\text{Carnot}=1-\frac{T_i}{T_s}\) Coefficiente di
+prestazione: \(COP=\frac{T_i}{T_i-T_s}\)
+\includegraphics{Ciclo Carnot pv.png}
+\includegraphics{Ciclo Carnot ts.png}
+
+\hypertarget{ciclo-otto}{%
+\subsubsection{Ciclo Otto}\label{ciclo-otto}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Compressione isoentropica
+\item
+  Trasformazione isocora
+\item
+  Espansione isoentropica
+\item
+  Trasformazione isocora
+\end{enumerate}
+
+Rapporto di compressione: \(r=\frac{V_\text{max}}{V_\text{min}}\)
+Rendimento: \(\eta_\text{Otto}=1-\frac{1}{r^{k-1}}\)
+\includegraphics{Ciclo Otto pv.png} \includegraphics{Ciclo Otto ts.png}
+
+\hypertarget{ciclo-diesel}{%
+\subsubsection{Ciclo Diesel}\label{ciclo-diesel}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Compressione isoentropica
+\item
+  Espansione isobara
+\item
+  Espansione isoentropica
+\item
+  Trasformazione isocora \includegraphics{Ciclo Diesel pv.png}
+  \includegraphics{Ciclo Diesel ts.png}
+\end{enumerate}
+
+\hypertarget{ciclo-joule-brayton}{%
+\subsubsection{Ciclo Joule-Brayton}\label{ciclo-joule-brayton}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Compressione isoentropica
+\item
+  Espansione isobara
+\item
+  Espansione isoentropica
+\item
+  Compressione isobara
+\end{enumerate}
+
+Rapporto manometrico di compressione: \(\beta=\frac{p_2}{p_1}\)
+Coefficiente dilatazione adiabatica: \(k=\frac{c_p}{c_v}\) Rendimento:
+\(\eta_\text{Brayton}=1-\frac{1}{\beta^{(k-1)/k}}\) Rendimento massimo
+per \(\beta=(T_\text{max}-T_\text{min})^{k/[2(k-1)]}\)
+\includegraphics{Ciclo Brayton pv.png}
+\includegraphics{Ciclo Brayton ts.png}
+
+\hypertarget{ciclo-di-rankine}{%
+\subsubsection{Ciclo di Rankine}\label{ciclo-di-rankine}}
+
+\includegraphics{Ciclo Rankine ts.png}
+
+\hypertarget{macchine-frigorifere-e-pompe-di-calore}{%
+\subsubsection{Macchine frigorifere e pompe di
+calore}\label{macchine-frigorifere-e-pompe-di-calore}}
+
+\(COP_F=\frac{1}{Q_s/Q_i-1}\hspace{1cm}COP_\text{F,rev}=\frac{1}{T_s/T_i-1}\)
+\(COP_\text{PDC}=\frac{1}{1-Q_i/Q_s}\hspace{0.48cm}COP_\text{PDC,rev}=\frac{1}{1-T_i/T_s}\)
+\#\#\#\#\# Ciclo inverso a compressione di vapore ideale 1. Compressione
+isoentropica 2. Compressione isobara (cede calore) 3. Laminazione
+isoentalpica (espansione) 4. Espansione isobara (assorbe calore)
+
+\(COP_F=\frac{q_i}{l_{n,e}}=\frac{h_1-h_4}{h_2-h_1}\)
+\(COP_{PDC}=\frac{q_s}{l_{n,e}}=\frac{h_2-h_3}{h_2-h_1}\)
+\includegraphics{Ciclo inverso vapore ideale.png}
+

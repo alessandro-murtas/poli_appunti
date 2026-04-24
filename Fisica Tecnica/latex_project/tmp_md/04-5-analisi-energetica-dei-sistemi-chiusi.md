@@ -1,0 +1,26 @@
+### Bilancio energetico per sistemi chiusi
+Bilancio energetico per qualsiasi sistema che subisce qualunque tipo di trasformazione:
+$$E_\text{entrante}-E_\text{uscente}=\Delta E_\text{sistema}\hspace{0.4cm}(kJ)$$
+Bilancio energetico con riferimento all'unità di tempo:
+$$\dot E_\text{entrante}-\dot E_\text{uscente}=\Delta \dot E_\text{sistema}\hspace{0.4cm}(kW)$$
+$Q=\dot Q\Delta t$, $L=\dot L \Delta t$ e $\Delta E=(dE/dt)\Delta t$
+Bilancio energetico per unità di massa:
+$$e_\text{entrante}-e_\text{uscente}=\Delta e_\text{sistema}\hspace{0.4cm}(kJ/kg)$$
+Bilancio energetico in forma differenziale:
+$$\delta E_\text{entrante}-\delta E_\text{uscente}=dE_\text{sistema} \hspace{1.5cm} \delta e_\text{entrante}-\delta e_\text{uscente}=de_\text{sistema}$$
+Bilancio energetico in un ciclo:
+$$L_\text{netto,uscente}=Q_\text{netto,entrante}\hspace{1cm}\dot L_\text{netto,uscente}=\dot Q_\text{netto,entrante}$$
+In generale:
+$$\Delta E_\text{sistema}=Q_\text{netto,entrante}-L_\text{netto,uscente}$$
+### Entalpia
+Posso calcolare il calore scambiato in una trasformazione conoscendo l'entalpia iniziale e finale e la pressione e il volume.
+$$Q_{1\to2}=H_2-H_1-\int_1^2 Vdp$$
+In una trasformazione isobare quindi il calore scambiato è pari alla variazione di entalpia
+$$Q_{p=\text{cost}}=H_2-H_1$$
+Il differenziale di entalpia lo posso scrivere in 3 modi:
+$$dH=\left( \frac{\partial H}{\partial p} \right)_Vdp+\left( \frac{\partial H}{\partial V} \right)_pdV$$$$dH=\left( \frac{\partial H}{\partial p} \right)_Tdp+\left( \frac{\partial H}{\partial T} \right)_pdT$$$$dH=\left( \frac{\partial H}{\partial V} \right)_Tdv+\left( \frac{\partial H}{\partial T} \right)_VdT$$
+#### Entalpia di un gas perfetto
+$H=U+pV=U+nR^*T=U+mRT$
+$h=u+pv=u+R^*T=u+RT$
+$\Delta H=nc_p\Delta T$
+$\Delta h=c_p\Delta T$
