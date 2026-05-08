@@ -34,4 +34,4 @@ $R_{max}=e$
 $\frac{A_0}{A_n}=R^n=e^{n_{min}}$
 $n_{min}=\ln{\frac{A_0}{A_n}}$
 
-K > alpha me
+$K = Z_\alpha/2$ = fattore di copertura: quante volte $\sigma_0$ (dev. standard) mi sto allontanando da $\mu_0$ (valore atteso)
