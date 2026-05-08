@@ -35,3 +35,6 @@ $\frac{A_0}{A_n}=R^n=e^{n_{min}}$
 $n_{min}=\ln{\frac{A_0}{A_n}}$
 
 $K = Z_\alpha/2$ = fattore di copertura: quante volte $\sigma_0$ (dev. standard) mi sto allontanando da $\mu_0$ (valore atteso)
+
+$LC=\mu_0$
+$LC I/S=\mu_0\pm k\frac{\sigma_0}{\sqrt{n}}$
