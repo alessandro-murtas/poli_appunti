@@ -33,3 +33,5 @@ $$r_i=\frac{A_{i-1}-A_i}{A_{i-1}}$$
 $R_{max}=e$
 $\frac{A_0}{A_n}=R^n=e^{n_{min}}$
 $n_{min}=\ln{\frac{A_0}{A_n}}$
+
+K > alpha me
