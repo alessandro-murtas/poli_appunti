@@ -37,5 +37,5 @@ $\text{LC}=\bar{\bar x}=4.4$
 $\text{LCI}=\bar {\bar x}-A_2(10)\bar R_\text{new}=-68.34$
 ##### Carta $R$
 $\text{LCS}=D_4(10)\bar R_\text{new}=419.67$
-$\text{LC}=\bar R=52.67$
+$\text{LC}=\bar R_\text{new}=236.17$
 $\text{LCI}=D_3(10)\bar R_\text{new}=0$
