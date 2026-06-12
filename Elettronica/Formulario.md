@@ -6,10 +6,11 @@
 - **Costante di tempo:** Dove $R_{eq}$ è la resistenza equivalente vista ai capi del condensatore nella specifica configurazione circuitale.$$\tau=R_{eq}\cdot C$$
 - **Potenza media dissipata:** Nel caso di segnali ad onda quadra, si esegue una media pesata sui tempi di accensione e breakdown.$$P=\frac{1}{T}(V_{ON}\cdot I_{ON}\cdot T_{ON}+V_{BD}\cdot I_{BD}\cdot T_{BD})$$
 ## 2. Transistori MOSFET e Reti Logiche CMOS
+Componente con k maggiore (di molto) dovrebbe lavorare in ohmica.
 
 - **Livelli logici (Pass Transistor nMOS):** Trasmette un livello logico alto "debole" decurtato della tensione di soglia.$$V_{H}=V_{DD}-V_{Tn}$$
 - **Corrente in regione di Saturazione:** Legata alla tensione di overdrive; per i pMOS si usano i valori in modulo.$$I_{D,sat}=k_{n}(V_{GS}-V_{Tn})^2$$
-- **Resistenza equivalente di canale (Zona Ohmica/Triodo):** Utilizzata per calcolare i tempi di transitorio scaricando i condensatori parassiti.$$R_{ON}=\frac{1}{k_{n}(V_{GS}-V_{Tn})}$$
+- **Resistenza equivalente di canale (Zona Ohmica/Triodo):** Utilizzata per calcolare i tempi di transitorio scaricando i condensatori parassiti.$$R_{ON}=\frac{1}{2\cdot k_{n}(V_{GS}-V_{Tn})}$$
 - **Transistori in serie:** Più MOSFET uguali connessi in serie si modellano come un unico transistore equivalente con parametro transconduttivo scalato.$$k_{eq}=\frac{k}{N_{serie}}$$
 - **Calcolo dei tempi di propagazione:** Modello linearizzato basato sulla costante di tempo del circuito RC parassita.$$t_{p}=-\tau\cdot\ln\frac{V_{target}}{V_{start}}$$
 - **Potenza Dinamica:** Consumo dovuto alla carica e scarica delle capacità di carico a una determinata frequenza $f$.$$P_{din}=f\cdot C_{L}\cdot(V_{H}-V_{L})\cdot V_{DD}$$
