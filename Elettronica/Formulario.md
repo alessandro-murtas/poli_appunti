@@ -16,6 +16,8 @@ Componente con k maggiore (di molto) dovrebbe lavorare in ohmica.
 - **Potenza Dinamica:** Consumo dovuto alla carica e scarica delle capacità di carico a una determinata frequenza $f$.$$P_{din}=f\cdot C_{L}\cdot(V_{H}-V_{L})\cdot V_{DD}$$
 - **Potenza Statica:** Causata da eventuale cross-conduzione della porta logica.$$P_{S}=V_{DD}\cdot|I_{Dp,sat}|$$
 ## 3. Amplificatori Operazionali (OpAmp) e Stabilità
+- **Impedenza condensatore**: sia $s=j\omega$
+$$Z_c=\frac{1}{sC}$$
 
 - **Polo in anello aperto e GBWP:** Il polo a bassa frequenza è legato al Prodotto Guadagno-Banda (GBWP) e al guadagno statico $A_{0}$.$$\tau_{p}=\frac{A_{0}}{GBWP}$$
 - **Studio della Stabilità (Margine di Fase):** Calcolato alla frequenza di taglio dell'asse a 0 dB, valutando la fase del guadagno di anello $G_{loop}(j\omega)$.$$MF=360^{\circ}-180^{\circ}-\sum\arctan\left(\frac{f_{0dB}}{f_{polo}}\right)$$
