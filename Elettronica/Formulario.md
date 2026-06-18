@@ -20,7 +20,7 @@ A parità di overdrive lavora in saturazione il MOS con k minore.
 $$Z_c=\frac{1}{sC}$$
 
 - **Polo in anello aperto e GBWP:** Il polo a bassa frequenza è legato al Prodotto Guadagno-Banda (GBWP) e al guadagno statico $A_{0}$.$$\tau_{p}=\frac{A_{0}}{GBWP}$$
-- **Studio della Stabilità (Margine di Fase):** Calcolato alla frequenza di taglio dell'asse a 0 dB, valutando la fase del guadagno di anello $G_{loop}(j\omega)$.$$MF=360^{\circ}-180^{\circ}-\sum\arctan\left(\frac{f_{0dB}}{f_{polo}}\right)$$
+- **Studio della Stabilità (Margine di Fase):** Calcolato alla frequenza di taglio dell'asse a 0 dB, valutando la fase del guadagno di anello $G_{loop}(j\omega)$.$$MF=180^{\circ}-\sum\arctan\left(\frac{f_{0dB}}{f_{polo}}\right)$$
 ## 4. Convertitori ADC/DAC e Sample & Hold
 
 - **Risoluzione e Livello LSB:** Differenza di potenziale associata al bit meno significativo su una determinata dinamica di fondo scala.$$\Delta V_{LSB}=\frac{V_{FS}}{2^N}$$
