@@ -6,7 +6,7 @@
 - **Costante di tempo:** Dove $R_{eq}$ è la resistenza equivalente vista ai capi del condensatore nella specifica configurazione circuitale.$$\tau=R_{eq}\cdot C$$
 - **Potenza media dissipata:** Nel caso di segnali ad onda quadra, si esegue una media pesata sui tempi di accensione e breakdown.$$P=\frac{1}{T}(V_{ON}\cdot I_{ON}\cdot T_{ON}+V_{BD}\cdot I_{BD}\cdot T_{BD})$$
 ## 2. Transistori MOSFET e Reti Logiche CMOS
-Componente con k maggiore (di molto) dovrebbe lavorare in ohmica.
+A parità di overdrive lavora in saturazione il MOS con k minore.
 
 - **Livelli logici (Pass Transistor nMOS):** Trasmette un livello logico alto "debole" decurtato della tensione di soglia.$$V_{H}=V_{DD}-V_{Tn}$$
 - **Corrente in regione di Saturazione:** Legata alla tensione di overdrive; per i pMOS si usano i valori in modulo.$$I_{D,sat}=k_{n}(V_{GS}-V_{Tn})^2$$
