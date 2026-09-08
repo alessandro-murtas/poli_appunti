@@ -1,0 +1,1 @@
+$$\nabla_WL=-\frac{1}{N}\sum_{i=1}^N\sum_je^{Wx_j}(x_i-x_j)+2\sum_kW_k$$
