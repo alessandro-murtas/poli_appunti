@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: murtas-azure.github.io/hpc-notes
+  baseUrl: alessandro-murtas.github.io/poli_appunti
   ignorePatterns:
     - private
     - templates
