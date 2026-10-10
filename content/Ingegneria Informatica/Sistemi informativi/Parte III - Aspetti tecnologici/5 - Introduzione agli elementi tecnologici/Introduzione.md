@@ -2,6 +2,7 @@ Le tecnologie si dividono in 3 livelli:
 - Livello applicativo
 - Livello di piattaforma
 - Livello di architettura fisica
+
 ![[Elementi tecnologici.png]]
 ## Livello applicativo
 Comprende tutte le applicazioni software che è possibile adottare

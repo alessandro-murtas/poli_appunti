@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "rehype-image-caption": {
+      "source": "https://github.com/Robot-Inventor/rehype-image-caption",
+      "resolved": "https://github.com/Robot-Inventor/rehype-image-caption",
+      "commit": "6792465def4d0aa72e782273be46521a024bad4e",
+      "installedAt": "2026-10-09T23:52:37.534Z"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-<center><img src="../../Immagini/Architettura CRM.png" height=200>  <img src="../../Immagini/CRM Enterprise.png" height=200></center>
+<center><img src="Immagini/Architettura CRM.png" height=200>  <img src="Immagini/CRM Enterprise.png" height=200></center>
 
 Il CRM (Customer Relationship Management) è una suite software che supporta le organizzazioni nelle interazioni con i clienti. **Solo** le aziende che hanno interazioni con clienti beneficiano dall'adozione di un CRM.
 I punti chiave del CRM sono il supporto alla relazione con il cliente attraverso molteplici canali (multicanalità) finalizzato al contatto in entrata (inbound) e in uscita (outbound), il supporto post vendita (service) e gestione della lealtà (Loyalty Management) e l’analisi del comportamento del cliente.

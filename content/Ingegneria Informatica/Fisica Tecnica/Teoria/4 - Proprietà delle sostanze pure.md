@@ -8,11 +8,10 @@ Una sostanza pura si può trovare in 3 fasi:
 Un liquido può essere **sottoraffreddato** (non in procinto di evaporare) o **saturo** (in procinto di evaporare).
 Analogamente un vapore **saturo** è in procinto di condensare e uno **surriscaldato** no.
 Tra un liquido saturo e un vapore saturo c'è la **miscela satura di liquido e vapore**.
-<center><figure><img src="Fasi.png" width=250/>
-  <figcaption>Diagramma di un processo di riscaldamento dell'acqua a pressione costante</figcaption></figure></center>
+<center><img src="Immagini/Fasi.png" height=250/></center>
 
+*Diagramma di un processo di riscaldamento dell'acqua a pressione costante*
 ### Proprietà
-
 **Temperatura di saturazione** $T_\text{sat}$: Temperatura a cui una sostanza inizia a evaporare (fissata la pressione)
 **Pressione di saturazione** $p_\text{sat}$: Pressione a cui una sostanza inizia a evaporare (fissata la temperatura)
 **Calore latente**: quantità di energia assorbita (o liberata) durante trasformazione con cambio di fase

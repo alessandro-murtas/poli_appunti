@@ -11,7 +11,9 @@ Può essere:
 Concetto di scalabilità è legato a quello di *elasticità*, importante nel cloud computing e coincide con una scalabilità orizzontale reversibile, dove il numero di nodi cresce o diminuisce in base al numero di richieste
 #### Availability
 Grado di funzionamento e accessibilità del sistema o componente quando è necessario per l'uso
-$$\text{Availability}=\frac{\text{Uptime}}{\text{Uptime}+\text{Downtime}}$$
+$$
+\text{Availability}=\frac{\text{Uptime}}{\text{Uptime}+\text{Downtime}}
+$$
 Aumentabile
 - Distribuendo applicazione su più nodi (costoso)
 - Con ridondanza (costoso)
