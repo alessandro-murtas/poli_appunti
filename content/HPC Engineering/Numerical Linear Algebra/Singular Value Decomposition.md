@@ -1,7 +1,7 @@
 ## Definition
 Given $A in RR^(m times n), m gt.eq n$
 $$
-U^T A V = Sigma=d i a g(sigma_1, sigma_2, ..., sigma_n) in RR^(m times n)
+U^T A V = Sigma=diag(sigma_1, sigma_2, ..., sigma_n) in RR^(m times n)
 $$
 with $U in RR^(m times m), V in RR^(n times n)$ both orthogonal and
 $$

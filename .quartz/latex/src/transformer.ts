@@ -4,7 +4,7 @@ import rehypeMathjax from "rehype-mathjax/svg";
 import { fromHtmlIsomorphic } from "hast-util-from-html-isomorphic";
 import { toText } from "hast-util-to-text";
 import { NodeCompiler } from "@myriaddreamin/typst-ts-node-compiler";
-import { SKIP, visitParents } from "unist-util-visit-parents";
+import { visitParents } from "unist-util-visit-parents";
 import type { QuartzTransformerPlugin } from "@quartz-community/types";
 import type { KatexOptions } from "katex";
 
@@ -67,18 +67,16 @@ function rehypeTypst(
     const matches: any[] = [];
     visitParents(tree, "element", (...args: any[]) => {
       matches.push(args);
-      return tree;
     });
 
-    await Promise.all(
-      matches.map(async ([element, parents]) => {
+    for (const [element, parents] of matches) {
         const classes = Array.isArray(element.properties?.className)
           ? element.properties.className
           : [];
         const languageMath = classes.includes("language-math");
         const mathDisplay = classes.includes("math-display");
         const mathInline = classes.includes("math-inline");
-        if (!languageMath && !mathDisplay && !mathInline) return;
+        if (!languageMath && !mathDisplay && !mathInline) continue;
 
         let parent = parents[parents.length - 1];
         let scope = element;
@@ -88,7 +86,7 @@ function rehypeTypst(
           parent = parents[parents.length - 2];
           displayMode = true;
         }
-        if (!parent) return;
+        if (!parent) continue;
 
         const code = toText(scope, { whitespace: "pre" });
         try {
@@ -138,9 +136,7 @@ function rehypeTypst(
             });
           }
         }
-        return SKIP;
-      }),
-    );
+    }
   };
 }
 

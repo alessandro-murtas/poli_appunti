@@ -234161,30 +234161,28 @@ function rehypeTypst(options = {}) {
     const matches2 = [];
     visitParents(tree, "element", (...args) => {
       matches2.push(args);
-      return tree;
     });
-    await Promise.all(
-      matches2.map(async ([element4, parents]) => {
-        const classes = Array.isArray(element4.properties?.className) ? element4.properties.className : [];
-        const languageMath = classes.includes("language-math");
-        const mathDisplay = classes.includes("math-display");
-        const mathInline = classes.includes("math-inline");
-        if (!languageMath && !mathDisplay && !mathInline) return;
-        let parent = parents[parents.length - 1];
-        let scope = element4;
-        let displayMode = mathDisplay;
-        if (element4.tagName === "code" && languageMath && parent?.tagName === "pre") {
-          scope = parent;
-          parent = parents[parents.length - 2];
-          displayMode = true;
-        }
-        if (!parent) return;
-        const code = toText(scope, { whitespace: "pre" });
-        try {
-          const compiler = typstCompiler ??= NodeCompiler.create();
-          const preamble = options.preamble ? `${options.preamble}
+    for (const [element4, parents] of matches2) {
+      const classes = Array.isArray(element4.properties?.className) ? element4.properties.className : [];
+      const languageMath = classes.includes("language-math");
+      const mathDisplay = classes.includes("math-display");
+      const mathInline = classes.includes("math-inline");
+      if (!languageMath && !mathDisplay && !mathInline) continue;
+      let parent = parents[parents.length - 1];
+      let scope = element4;
+      let displayMode = mathDisplay;
+      if (element4.tagName === "code" && languageMath && parent?.tagName === "pre") {
+        scope = parent;
+        parent = parents[parents.length - 2];
+        displayMode = true;
+      }
+      if (!parent) continue;
+      const code = toText(scope, { whitespace: "pre" });
+      try {
+        const compiler = typstCompiler ??= NodeCompiler.create();
+        const preamble = options.preamble ? `${options.preamble}
 ` : "";
-          const template = displayMode ? `${preamble}#set page(height: auto, width: auto, margin: 0pt)
+        const template = displayMode ? `${preamble}#set page(height: auto, width: auto, margin: 0pt)
 
 $ ${code} $` : `${preamble}#set page(height: auto, width: auto, margin: 0pt)
 
@@ -234200,47 +234198,45 @@ $pin("l1")${code}$
 #context [
   #metadata(s.final().at("l1")) <label>
 ]`;
-          const compiled = compiler.compile({ mainFileContent: template });
-          if (!compiled.result) throw new Error("Typst failed to compile the equation");
-          const root2 = fromHtmlIsomorphic(compiler.svg(compiled.result), { fragment: true });
-          const svg3 = root2.children[0];
-          const height = Number.parseFloat(svg3.properties.dataHeight);
-          const width = Number.parseFloat(svg3.properties.dataWidth);
-          const query = displayMode ? [] : compiler.query(compiled.result, { selector: "<label>" });
-          const baselinePosition = query.length > 0 ? Number.parseFloat(query[0].value.slice(0, -2)) : 11;
-          svg3.properties.style = `vertical-align: -${(height - baselinePosition) / 11}em;`;
-          svg3.properties.height = `${height / 11}em`;
-          svg3.properties.width = `${width / 11}em`;
-          if (displayMode) {
-            svg3.properties.style += "; display: block; margin: 0 auto;";
-          } else {
-            svg3.properties.className = ["typst-inline"];
-          }
-          parent.children.splice(parent.children.indexOf(scope), 1, ...root2.children);
-        } catch (typstError) {
-          try {
-            const fallback = await renderWithMathjax(scope, file, mathJaxOptions, macros2);
-            parent.children.splice(parent.children.indexOf(scope), 1, ...fallback);
-          } catch (mathJaxError) {
-            file.message("Could not render math with Typst or MathJax", {
-              cause: mathJaxError,
-              note: String(typstError)
-            });
-            parent.children.splice(parent.children.indexOf(scope), 1, {
-              type: "element",
-              tagName: "span",
-              properties: {
-                className: ["typst-error"],
-                style: `color:${options.errorColor ?? "#cc0000"}`,
-                title: String(mathJaxError)
-              },
-              children: [{ type: "text", value: code }]
-            });
-          }
+        const compiled = compiler.compile({ mainFileContent: template });
+        if (!compiled.result) throw new Error("Typst failed to compile the equation");
+        const root2 = fromHtmlIsomorphic(compiler.svg(compiled.result), { fragment: true });
+        const svg3 = root2.children[0];
+        const height = Number.parseFloat(svg3.properties.dataHeight);
+        const width = Number.parseFloat(svg3.properties.dataWidth);
+        const query = displayMode ? [] : compiler.query(compiled.result, { selector: "<label>" });
+        const baselinePosition = query.length > 0 ? Number.parseFloat(query[0].value.slice(0, -2)) : 11;
+        svg3.properties.style = `vertical-align: -${(height - baselinePosition) / 11}em;`;
+        svg3.properties.height = `${height / 11}em`;
+        svg3.properties.width = `${width / 11}em`;
+        if (displayMode) {
+          svg3.properties.style += "; display: block; margin: 0 auto;";
+        } else {
+          svg3.properties.className = ["typst-inline"];
         }
-        return SKIP;
-      })
-    );
+        parent.children.splice(parent.children.indexOf(scope), 1, ...root2.children);
+      } catch (typstError) {
+        try {
+          const fallback = await renderWithMathjax(scope, file, mathJaxOptions, macros2);
+          parent.children.splice(parent.children.indexOf(scope), 1, ...fallback);
+        } catch (mathJaxError) {
+          file.message("Could not render math with Typst or MathJax", {
+            cause: mathJaxError,
+            note: String(typstError)
+          });
+          parent.children.splice(parent.children.indexOf(scope), 1, {
+            type: "element",
+            tagName: "span",
+            properties: {
+              className: ["typst-error"],
+              style: `color:${options.errorColor ?? "#cc0000"}`,
+              title: String(mathJaxError)
+            },
+            children: [{ type: "text", value: code }]
+          });
+        }
+      }
+    }
   };
 }
 var Latex = (opts) => {
