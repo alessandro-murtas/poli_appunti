@@ -4,4 +4,6 @@ sigma(A) = \{lambda in CC: exists underline(v) in CC^n without {underline(0)}spa
 $$
 ### Spectral Radius
 The **spectral radius** $rho(A)$ is the maximum modulus among all eigenvalues in the spectrum:
-$$rho(A) = max_(lambda in sigma(A)) |lambda|$$
+$$
+rho(A) = max_(lambda in sigma(A)) abs(lambda)
+$$

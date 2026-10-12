@@ -234206,7 +234206,9 @@ $pin("l1")${code}$
           const svg3 = root2.children[0];
           const height = Number.parseFloat(svg3.properties.dataHeight);
           const width = Number.parseFloat(svg3.properties.dataWidth);
-          svg3.properties.style = `vertical-align: -${(height - 11) / 11}em;`;
+          const query = displayMode ? [] : compiler.query(compiled.result, { selector: "<label>" });
+          const baselinePosition = query.length > 0 ? Number.parseFloat(query[0].value.slice(0, -2)) : 11;
+          svg3.properties.style = `vertical-align: -${(height - baselinePosition) / 11}em;`;
           svg3.properties.height = `${height / 11}em`;
           svg3.properties.width = `${width / 11}em`;
           if (displayMode) {

@@ -104,7 +104,11 @@ function rehypeTypst(
           const svg = root.children[0] as any;
           const height = Number.parseFloat(svg.properties.dataHeight);
           const width = Number.parseFloat(svg.properties.dataWidth);
-          svg.properties.style = `vertical-align: -${(height - 11) / 11}em;`;
+          const query = displayMode
+            ? []
+            : compiler.query(compiled.result, { selector: "<label>" });
+          const baselinePosition = query.length > 0 ? Number.parseFloat(query[0].value.slice(0, -2)) : 11;
+          svg.properties.style = `vertical-align: -${(height - baselinePosition) / 11}em;`;
           svg.properties.height = `${height / 11}em`;
           svg.properties.width = `${width / 11}em`;
           if (displayMode) {

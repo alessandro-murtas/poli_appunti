@@ -14,11 +14,17 @@ $$
 B underline(y) = lambda underline(y)
 $$
 Substitute $B = T^(-1) A T$:
-$$T^(-1) A T underline(y) = lambda underline(y)$$
+$$
+T^(-1) A T underline(y) = lambda underline(y)
+$$
 Multiply both sides on the left by $T$:
-$$A(T underline(y)) = lambda(T underline(y))$$
+$$
+A(T underline(y)) = lambda(T underline(y))
+$$
 Substitute $underline(w) = T underline(y)$:
-$$A underline(w) = lambda underline(w)$$
+$$
+A underline(w) = lambda underline(w)
+$$
 Since $T$ is invertible and $underline(y) != bold(0)$, $underline(w) = T underline(y) != 0$. Therefore, $underline(w) = T underline(u)$ is an eigenvector of $A$ corresponding to $lambda$.
 > [!note] Inversion
 > Conversely, if $underline(v)$ is an eigenvector of $A$, then $underline(y)=T^(-1) underline(v)$ is an eigenvector of $B$.
