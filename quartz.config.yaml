@@ -97,7 +97,7 @@ plugins:
       renderEngine: typst
       typstOptions:
         preamble: |
-          #import "@preview/physica:0.9.3": *
+          #import "@preview/physica:0.9.8": *
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
