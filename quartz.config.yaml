@@ -91,10 +91,13 @@ plugins:
   - source: "@quartz-community/description"
     enabled: true
     order: 70
-  - source: "@quartz-community/latex"
+  - source: "./.quartz/latex"
     enabled: true
     options:
-      renderEngine: mathjax
+      renderEngine: typst
+      typstOptions:
+        preamble: |
+          #import "@preview/physica:0.9.3": *
     order: 80
   - source: "@quartz-community/citations"
     enabled: false

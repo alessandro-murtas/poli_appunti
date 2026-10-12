@@ -5,6 +5,26 @@ import { fetchCanonical } from "./util"
 const p = new DOMParser()
 let activeAnchor: HTMLAnchorElement | null = null
 
+function extractSectionContent(headingEl: HTMLElement): HTMLElement[] {
+  const elements: HTMLElement[] = [headingEl]
+  const level = parseInt(headingEl.tagName.replace(/^H/i, ""), 10)
+
+  let next = headingEl.nextElementSibling as HTMLElement | null
+  while (next) {
+    const isHeading = /^H[1-6]$/i.test(next.tagName)
+    if (isHeading) {
+      const nextLevel = parseInt(next.tagName.replace(/^H/i, ""), 10)
+      if (!isNaN(nextLevel) && !isNaN(level) && nextLevel <= level) {
+        break
+      }
+    }
+    elements.push(next)
+    next = next.nextElementSibling as HTMLElement | null
+  }
+
+  return elements
+}
+
 async function mouseEnterHandler(
   this: HTMLAnchorElement,
   { clientX, clientY }: { clientX: number; clientY: number },
@@ -29,13 +49,13 @@ async function mouseEnterHandler(
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
 
-    if (hash !== "") {
+    // When displaying a full-page preview, maintain heading offset scrolling
+    if (hash !== "" && !popoverElement.dataset.isSection) {
       const inner = popoverElement.querySelector(".popover-inner") as HTMLElement | null
       if (inner) {
         const targetAnchor = `#popover-internal-${hash.slice(1)}`
         const heading = inner.querySelector(targetAnchor) as HTMLElement | null
         if (heading) {
-          // leave ~12px of buffer when scrolling to a heading
           inner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
         }
       }
@@ -46,11 +66,12 @@ async function mouseEnterHandler(
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
-  const popoverId = `popover-${link.pathname}`
+
+  // Differentiate cache key so #section previews don't overwrite full page previews
+  const popoverId = `popover-${link.pathname}${hash ? `-${hash.slice(1)}` : ""}`
   const prevPopoverElement = document.getElementById(popoverId)
 
-  // dont refetch if there's already a popover
-  if (!!document.getElementById(popoverId)) {
+  if (prevPopoverElement) {
     showPopover(prevPopoverElement as HTMLElement)
     return
   }
@@ -78,7 +99,6 @@ async function mouseEnterHandler(
       const img = document.createElement("img")
       img.src = targetUrl.toString()
       img.alt = targetUrl.pathname
-
       popoverInner.appendChild(img)
       break
     case "application":
@@ -96,18 +116,47 @@ async function mouseEnterHandler(
       const contents = await response.text()
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
-      // prepend all IDs inside popovers to prevent duplicates
-      html.querySelectorAll("[id]").forEach((el) => {
-        const targetID = `popover-internal-${el.id}`
-        el.id = targetID
-      })
-      const elts = [...html.getElementsByClassName("popover-hint")]
-      if (elts.length === 0) return
 
-      elts.forEach((elt) => popoverInner.appendChild(elt))
+      // 1. Gather all SVG glyph defs BEFORE prefixing or extracting content
+      const allDefs = html.querySelectorAll("defs")
+      const defsWrapper = html.createElementNS("http://www.w3.org/2000/svg", "svg")
+      defsWrapper.setAttribute(
+        "style",
+        "position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none;",
+      )
+      defsWrapper.setAttribute("aria-hidden", "true")
+      allDefs.forEach((def) => {
+        defsWrapper.appendChild(def.cloneNode(true))
+      })
+
+      // 2. Prefix IDs to avoid collisions, but EXCLUDE SVG defs/symbols/glyphs
+      // so that Typst and MathJax <use href="#..."> references stay intact
+      html.querySelectorAll("[id]").forEach((el) => {
+        // Do not rename SVG glyph IDs (e.g. paths, glyphs, defs, or anything inside an svg)
+        if (el.closest("svg")) {
+          return
+        }
+        el.id = `popover-internal-${el.id}`
+      })
+
+      const targetId = hash !== "" ? `popover-internal-${hash.slice(1)}` : null
+      const targetElement = targetId ? (html.getElementById(targetId) as HTMLElement | null) : null
+
+      if (targetElement) {
+        popoverElement.dataset.isSection = "true"
+        const sectionNodes = extractSectionContent(targetElement)
+        sectionNodes.forEach((node) => popoverInner.appendChild(node))
+      } else {
+        const elts = [...html.getElementsByClassName("popover-hint")]
+        if (elts.length === 0) return
+        elts.forEach((elt) => popoverInner.appendChild(elt))
+      }
+
+      // 3. Prepend the captured SVG definitions so <use href="#..."> resolves properly
+      popoverInner.prepend(defsWrapper)
   }
 
-  if (!!document.getElementById(popoverId)) {
+  if (document.getElementById(popoverId)) {
     return
   }
 

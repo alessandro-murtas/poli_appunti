@@ -1,3 +1,25 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+.popover-inner {
+  // Give symmetric top and bottom breathing room
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  // Prevent margin-collapse and ensure the top heading spacing is clean
+  > :first-child {
+    margin-top: 0;
+  }
+}
+
+.popover {
+  // Hides Quartz breadcrumb/navigation path inside the preview
+  .breadcrumb-container,
+  .breadcrumb,
+  nav.breadcrumb {
+    display: none !important;
+  }
+  p.content-meta {
+    display: none !important;
+  }
+}

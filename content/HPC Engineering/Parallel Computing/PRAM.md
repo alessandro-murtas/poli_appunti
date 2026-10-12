@@ -31,8 +31,8 @@ PRAM model is useful to determine if parallel algorithm is efficient
 - $T_1(n)$: time of parallel algorithm with **one processor**
 - $T^*(n)\leq T_1(n)$ this is always true, sometimes parallel algorithm is slower because of overhead (bookkeeping to organize processors work)
 - $T_p(n)$: time of parallel alg with $p$ processors
-- $S_p(n)=\frac{T^*(n)}{T_p(n)}$: speedup of algorithm with $p$ processors compared to serial algorithm
+- $S_p(n)=(T^(*(n)))/T_p(n)$: speedup of algorithm with $p$ processors compared to serial algorithm
 - $S_p(n)\leq p$ (ideally we want $S_p=p$ but in practice impossible)
-- $E_p(n)=\frac{T_1(n)}{p\cdot T_p(n)}=\frac{S_p(n)}{p}$: efficiency ($E_p(n)\leq 1$) perfect efficiency means every processor contributes ideally without being idle or doing overhead work.
+- $E_p(n)=T_(1(n))/(p dot T_p(n))= S_p(n)/p$: efficiency ($E_p(n)\leq 1$) perfect efficiency means every processor contributes ideally without being idle or doing overhead work.
 - $C_p(n)=p\cdot T_p(n)$: cost is total processors usage time
 Typically increasing $p$ increases speedup and cost and decreases efficiency and execution time.
