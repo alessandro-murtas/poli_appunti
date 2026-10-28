@@ -17,3 +17,4 @@ Every perturbation $e != 0$ to the exact solution $x$ increases $phi.alt (x)$:
 $$
 phi.alt(x+e)=phi.alt(x)+1/2 e^T A e > phi.alt(x)
 $$
+Since $A$ is SPD $e^T A e > 0, forall e != 0$.

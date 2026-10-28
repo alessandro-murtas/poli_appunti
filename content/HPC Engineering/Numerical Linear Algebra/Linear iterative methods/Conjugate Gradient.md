@@ -10,9 +10,9 @@ Given $x^((0))$
 $r^((0))=b-A x^((0))$
 $d^((0))=r^((0))$
 while(stopping_criteria)
-	$alpha_k=((d^((k)) )^T r^((k)))/((d^((k)))^T A d^((k)))$
-	$x^((k+1))=x^((k))+alpha_k d^((k))$
-	$r^((k+1))=r^((k))-alpha_k A d^((k))$
-	$beta_k=((A d^((k)))^T r^((k+1)))/((A d^((k)))^T d^((k)))$
-	$d^((k+1))=r^((k+1))-beta_k d^((k))$
+$space.quad space.quad   display(alpha_k=((d^((k)) )^T r^((k)))/((d^((k)))^T A d^((k))))$
+$space.quad space.quad  x^((k+1))=x^((k))+alpha_k d^((k))$
+$space.quad space.quad  display(r^((k+1))=r^((k))-alpha_k A d^((k)))$
+$space.quad space.quad display(beta_k=((A d^((k)))^T r^((k+1)))/((A d^((k)))^T d^((k))))$
+$space.quad space.quad  display(d^((k+1))=r^((k+1))-beta_k d^((k)))$
 end
