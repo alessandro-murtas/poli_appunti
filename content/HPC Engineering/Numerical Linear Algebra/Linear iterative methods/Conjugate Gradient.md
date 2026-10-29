@@ -24,3 +24,15 @@ If $P$ is a good preconditioner
 $$
 (sqrt(K(P^(-1)A))-1)/(sqrt(K(P^(-1)A))+1) < (sqrt(K(A))-1)/(sqrt(K(A))+1)
 $$
+### Pseudo-code
+Given $x^((0))$
+$r^((0))=b-A x^((0))$
+$d^((0))=r^((0))$
+while(stopping_criteria)
+$space.quad space.quad text("solve") P z^((k))=r^((k))$ (action of $P$ on $r^((k))$)
+$space.quad space.quad   display(alpha_k=((z^((k)) )^T r^((k)))/((z^((k)))^T A z^((k))))$
+$space.quad space.quad  x^((k+1))=x^((k))+alpha_k z^((k))$
+$space.quad space.quad  display(r^((k+1))=r^((k))-alpha_k A z^((k)))$
+$space.quad space.quad display(beta_k=((A z^((k)))^T r^((k+1)))/((A z^((k)))^T z^((k))))$
+$space.quad space.quad  display(z^((k+1))=r^((k+1))-beta_k z^((k)))$
+end

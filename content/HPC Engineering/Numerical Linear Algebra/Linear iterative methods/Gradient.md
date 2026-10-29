@@ -32,7 +32,16 @@ With a bigger $K(A)$ you get a slower convergence rate, in the best case of $K(A
 $$
 A x = b arrow.l.r.double.long P^(-1/2) A P^(-1/2) y =P^(-1/2) b space.quad space.quad y=P^(1/2)x
 $$
-If $P$ is a good preconditioner
+If $P$ is a good ([[SPD matrixes|SPD]]) preconditioner
 $$
 (K(P^(-1)A)-1)/(K(P^(-1)A)+1) < (K(A)-1)/(K(A)+1)
 $$
+### Pseudo-code
+Given $x^((0))$
+$r^((0))=b-A x^((0))$
+while(stopping_criteria)
+$space.quad space.quad text("solve") P z^((k))=r^((k))$ (action of $P$ on $r^((k))$)
+$space.quad space.quad display(alpha_k=([z^((k))]^T r^((k)))/([z^((k))]^T A z^((k))))$
+$space.quad space.quad x^((k+1))=x^((k))+alpha_k z^((k))$
+$space.quad space.quad r^((k+1))=r^((k))-alpha_k A z^((k))$
+end

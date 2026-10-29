@@ -19,3 +19,4 @@ So $A^T A$ is [[Matrix Similarity|similar]] to $Sigma^T Sigma$ (hence preserving
 $$
 lambda_i (A^T A) = lambda_i (Sigma Sigma^T)=[sigma_i (A)]^2
 $$
+### Computing the SVD
