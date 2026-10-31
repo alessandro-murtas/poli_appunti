@@ -7,3 +7,14 @@ $$
 > [!tip] Choose $P$ s.t. $K(P^(-1/2)A P^(-1/2)) lt.double K(A)$
 
 When choosing preconditioner we need to balance number of iterations with cost of each iteration to reduce total CPU time.
+### Inexact LU factorization (ILU)
+We can use the inexact [[LU factorization]] of $A$:
+$$
+A=L U ==> A approx tilde(L) tilde(U)
+$$
+where
+$$
+a_(i,j)=0 ==> tilde(l)_(i,j)=tilde(u)_(i,j)=0
+$$
+to preserve the sparsity pattern of $A$ (no fill-in).
+This is a good compromise between cost of computing the preconditioner and the condition number.

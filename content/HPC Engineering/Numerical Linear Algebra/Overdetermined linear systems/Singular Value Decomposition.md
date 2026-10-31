@@ -20,3 +20,14 @@ $$
 lambda_i (A^T A) = lambda_i (Sigma Sigma^T)=[sigma_i (A)]^2
 $$
 ### Computing the SVD
+Let $U=[u_1,u_2,dots.h ,u_n]$, $V=[v_1,v_2,...,v_n]$ where $u_j, v_j$ are column vectors.
+From
+$$
+A v_j=sigma_j u_j and A^T u_j =sigma_j v_j
+$$
+we get
+$$
+A^T A v_j = sigma^2_j v_j
+$$
+We can then compute $v_j$ eigenvectors and $sigma^2$ eigenvalues of $A^T A$ through symmetric [[QR algorithm]].
+We can in the end obtain $U$ through the relation $A v_j = sigma_j u_j$ in conjunction with [[QR factorization]] and [[Pivoting thecniques|column pivoting]].

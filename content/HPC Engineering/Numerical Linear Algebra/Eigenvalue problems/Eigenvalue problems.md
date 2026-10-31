@@ -3,7 +3,7 @@ $$
 A underline(v)=lambda underline(v)
 $$
 An eigenvalue is associated to infinite eigenvectors so for the problem to be [[Well posed problem|well posed]] we constrain $norm(v)=1$.
-Methods:
+Available methods:
 - [[Power method]]
 - [[Inverse power method]]
 - [[Deflation methods]]
