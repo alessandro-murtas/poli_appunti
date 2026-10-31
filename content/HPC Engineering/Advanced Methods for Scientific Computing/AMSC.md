@@ -1,1 +1,0 @@
-Docente: luca.formaggia@polimi.it

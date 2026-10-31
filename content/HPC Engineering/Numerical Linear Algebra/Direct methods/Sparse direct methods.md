@@ -1,0 +1,2 @@
+Direct methods are hard to parallelize and if you have a [[Sparse matrices|sparse matrix]] with direct methods you would lose sparsity pattern (fill-in).
+So you need to reorder columns and rows based on connectivity graph and graph ordering techniques.
