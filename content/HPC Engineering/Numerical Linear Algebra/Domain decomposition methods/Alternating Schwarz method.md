@@ -1,0 +1,3 @@
+Alternating Schwarz method is used to decompose Partial Differential Equations (PDEs) problems in simple geometries for which I already know the analytical solution.
+If we divide our domain $Omega$ in 2 subdomains $Omega_1 union Omega_2=Omega$ we first solve the PDE in $Omega_1$, then we use the solution found as a boundary condition for solving the PDE in $Omega_2$.
+Alternating iterations continue until convergence to the solution on the entire domain $Omega$.

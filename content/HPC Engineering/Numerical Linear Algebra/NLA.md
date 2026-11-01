@@ -5,5 +5,7 @@ Chapters:
 4. [[Overdetermined linear systems]]
 5. [[Geometric multigrid]]
 6. [[Algebraic multigrid]]
-7. [[Domain decomposition methods]]
+7. Domain decomposition methods
+	1. [[Discretized Schwarz methods]]
+	2. [[Non overlapping subdomains]]
 8. Direct methods

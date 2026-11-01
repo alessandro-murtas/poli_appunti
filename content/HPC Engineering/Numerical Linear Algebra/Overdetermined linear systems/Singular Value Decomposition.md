@@ -15,9 +15,9 @@ $sqrt(lambda_i (A^T A)) = sigma_i (A), forall i$
 $$
 A^T A=(U Sigma V^T)^T U Sigma V^T=V Sigma^T U^T U Sigma V^T=V Sigma^T Sigma V^T
 $$
-So $A^T A$ is [[Matrix Similarity|similar]] to $Sigma^T Sigma$ (hence preserving its spectrum):
+So $A^T A$ is [[Matrix Similarity|similar]] to $Sigma^T Sigma$ (hence preserving its [[Spectrum|spectrum]]):
 $$
-lambda_i (A^T A) = lambda_i (Sigma Sigma^T)=[sigma_i (A)]^2
+lambda_i (A^T A) = lambda_i (Sigma^T Sigma)=[sigma_i (A)]^2
 $$
 ### Computing the SVD
 Let $U=[u_1,u_2,dots.h ,u_n]$, $V=[v_1,v_2,...,v_n]$ where $u_j, v_j$ are column vectors.

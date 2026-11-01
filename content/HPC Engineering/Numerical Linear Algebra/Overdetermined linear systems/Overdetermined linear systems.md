@@ -6,7 +6,7 @@ In linear regression I have only 2 degrees of freedom ($alpha_0, alpha_1$) and a
 $$
 A=mat(delim: "[", 1, T_1;1, T_2; dots.v,dots.v; 1, T_m), b=mat(delim: "[", L_1;L_2;dots.v;L_m)
 $$
-Error equation: $e_i=(alpha_0+alpha_i T_i - L_i)^2$
+Error equation: $e_i=(alpha_0+alpha_1 T_i - L_i)^2$
 I want to find $(alpha_0, alpha_1)$ s.t. 
 $$
 min_((alpha_0, alpha_i)) sum_(i=1)^m (e_i)^2

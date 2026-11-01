@@ -23,6 +23,6 @@ max_(y !=0) (y^T (q^T_k A q_k)y)/(y^T y)=lambda_1(T_k) lt.eq lambda_1(A) = lambd
 $$
 and minimizes LHS of
 $$
-min_(y !=0) (y^T (q^T_k A q_k)y)/(y^T y)=lambda_n(T_k) lt.eq lambda_n(A) = lambda_n(T)
+min_(y !=0) (y^T (q^T_k A q_k)y)/(y^T y)=lambda_n (T_k) lt.eq lambda_n (A) = lambda_n (T)
 $$
 where $lambda_1(A)$ and $lambda_n (A)$ are the maximum and minimum eigenvalue of $A$ respectively.
