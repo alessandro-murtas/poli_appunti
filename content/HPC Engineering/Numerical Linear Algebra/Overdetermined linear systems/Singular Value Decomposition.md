@@ -5,7 +5,7 @@ U^T A V = Sigma=diag(sigma_1, sigma_2, ..., sigma_n) in RR^(m times n)
 $$
 with $U in RR^(m times m), V in RR^(n times n)$ both orthogonal and
 $$
-Sigma = mat(delim: "[", sigma_1, 0, ., ., 0 ; 0, sigma_(2),,, . ; .,, .,, . ; .,,, ., . ; .,,,, sigma_(p) ; .,,,, 0 ; .,,,, . ; .,,,, . ; .,,,, . ; 0, 0, ., ., 0) space.quad mat( delim: #none, p = m i n (m,n); sigma_(i)>= 0 thick forall i in [1,p ])
+Sigma = mat(delim: "[", sigma_1, 0, dots.h, 0 ; 0, sigma_(2),, dots.v ; dots.v,, dots.down, 0 ; dots.v,,, sigma_(p) ; dots.v,,, 0  ; dots.v,,, dots.v ; 0, 0, dots.h, 0) space.quad mat( delim: #none, p = m i n (m,n); sigma_(i)>= 0 thick forall i in [1,p ])
 $$
 $sigma_i$ are called singular values of $A$.
 $U^T A V= Sigma <=> A=U Sigma V^T$
