@@ -5,7 +5,7 @@ $$
 2 consecutive steps are always orthogonal.
 We want to choose optimal $alpha_k$ to minimize $phi.alt (x^((k+1)))$:
 $$
-phi.alt (x^((k+1))))
+phi.alt (x^((k+1)))
 = &1/2 (x^((k))+alpha_k r^((k)))^T A (x^((k))+alpha_k r^((k))) + (x^((k))+alpha_k r^((k)))^T b= \
 = & 1/2 alpha_k^2 (r^((k)))^T A r^((k))+1/2 (x^((k)))^T A x^((k)) + 1/2alpha_k (x^((k)))^T A r^((k)) + 1/2alpha_k (r^((k)))^T A x^((k))
 \ & - alpha_k (r^((k)))^T b +1/2 (x^((k)))^T A x^((k)) - (x^((k)))^T b =\
@@ -13,7 +13,7 @@ phi.alt (x^((k+1))))
 $$
 We want
 $$
-(d phi.alt x^((k+1)))/(d alpha_k)= alpha_k (r^((k)))^T A r^((k)) - (r^((k)))^T A r^((k)) =0 ==> alpha_k =((r^((k)))^T A r^((k)))/((r^((k)))^T A r^((k)))
+(d phi.alt (x^((k+1))))/(d alpha_k)= alpha_k (r^((k)))^T A r^((k)) - (r^((k)))^T r^((k)) =0 ==> alpha_k =((r^((k)))^T r^((k)))/((r^((k)))^T A r^((k)))
 $$
 ### Pseudo-code
 Given $x^((0))$

@@ -1,6 +1,6 @@
 Given a threshold $theta in (0,1)$ we say $i$ is strongly connected with $j$ if
 $$
-a_(i j)>= theta max_(k != i) (-a_(i k))
+-a_(i j)>= theta max_(k != i) (-a_(i k))
 $$
 $S_i$ is the set of vertices $i$ is strongly connected to
 $$
