@@ -29,10 +29,10 @@ Given $x^((0))$
 $r^((0))=b-A x^((0))$
 $d^((0))=r^((0))$
 while(stopping_criteria)
-$space.quad space.quad text("solve") P z^((k))=r^((k))$ (action of $P$ on $r^((k))$)
 $space.quad space.quad   display(alpha_k=((z^((k)) )^T r^((k)))/((z^((k)))^T A z^((k))))$
-$space.quad space.quad  x^((k+1))=x^((k))+alpha_k z^((k))$
-$space.quad space.quad  display(r^((k+1))=r^((k))-alpha_k A z^((k)))$
-$space.quad space.quad display(beta_k=((A z^((k)))^T r^((k+1)))/((A z^((k)))^T z^((k))))$
-$space.quad space.quad  display(z^((k+1))=r^((k+1))-beta_k z^((k)))$
+$space.quad space.quad  x^((k+1))=x^((k))+alpha_k d^((k))$
+$space.quad space.quad  display(r^((k+1))=r^((k))-alpha_k A d^((k)))$
+$space.quad space.quad  text("solve") P z^((k+1))=r^((k+1))$
+$space.quad space.quad display(beta_k=((A d^((k)))^T z^((k+1)))/((A d^((k)))^T d^((k))))$
+$space.quad space.quad  display(d^((k+1))=z^((k+1))-beta_k d^((k)))$
 end

@@ -1,7 +1,7 @@
 BiCG works in a similar way as [[Conjugate Gradient|CG]] but while doing one step in initial system it also does one in the dual system and computes the next direction by combining the directions of the 2 systems.
 ### Pseudo-code
 Choose $x^((0)), hat(x)^((0)), hat(b)$
-$r^((0))=b-A x^((0))$, $hat(r)^((0))=b- A hat(x)^((0))$
+$r^((0))=b-A x^((0))$, $hat(r)^((0))=hat(b)- hat(x)^((0)) A^T$
 $d^((0))=r^((0))$, $hat(d)^((0))=hat(r)^((0))$
 while([[Stopping criteria]])
 $space.quad space.quad alpha_k=(hat(r)^((k))r^((k)))/(hat(d)_k A d_k)$
