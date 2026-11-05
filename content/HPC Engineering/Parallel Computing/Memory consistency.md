@@ -18,3 +18,33 @@ A program defines a sequence of loads and stores (the "program order"), there ar
 >[!info]- "write to - must commit before subsequent read from -"
 >This means that when a write comes before a read in program order, the write must commit (its results are visible) by the time the read occurs.
 
+### Sequential consistency
+Introduced to guarantee certain order of execution.
+It maintains all four memory operation orderings.
+### Relaxed consistency
+Some rules are allowed to be violated.
+Introduced to gain performance when two memory access are independent.
+
+### Write buffers
+To reduce write latency we can use write buffers. Instead of writing immediately the value to memory it stays in a write buffer so the program can continue execution before the data is actually written in memory.
+
+- Partial store ordering: Allows writes to be reordered
+- Weak ordering: remove all ordering
+- Release Consistency: remove all constraints
+
+The orderings are removed to improve performances.
+When ordering is actually needed you use synchronization:
+- Fence instructions that prevent reordering but are expensive (`__syncthreads`, `__syncwarps`, ...)
+
+Intel uses total store ordering.
+ARM uses relaxed consistency model.
+
+## Data races
+A data race occurs any time you have concurrent access to the same memory location and one of them is write. If ordering is not guaranteed program is not synchronized.
+If program doesn't have data races ordering of instructions is not relevant.
+
+## Locks
+need atomic instruction to do a test-set instruction.
+
+Using only locks to remove data-races slows down program execution because access to same memory location becomes sequential (also creating access on the bus when testing lock value from memory).
+coherence traffic.

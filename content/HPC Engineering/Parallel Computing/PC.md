@@ -22,3 +22,5 @@ How to choose which parallelism
 - Every data element follows same path: SIMD
 - Long dependency chain: not superscalar
 - Memory traffic dominant: adding cores/lanes may hit bandwidth limits
+
+[[Scaling laws#Amdahl's law|Amdahl's law]]
