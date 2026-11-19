@@ -1,7 +1,7 @@
 Discretization yields a $n times n$ [[SPD matrixes|SPD]] linear system of the form $A x=b$.
 We split our domain $Omega$ in $Omega_1, Omega_2$ s.t. $Omega=Omega_1 union Omega_2$.
 Let $s_i in Omega$ be a vertex in the domain, we define $S_1, S_2$ as the set of $n_1,n_2$ vertices belonging to $Omega_1,Omega_2$.
-Since $Omega_1 inter Omega_2 != emptyset ==> n_1+n_2 > n$.
+Since $Omega_1 inter Omega_2 != diameter ==> n_1+n_2 > n$.
 Then we can build restriction operators $R_i in RR^(n_i times n)$.
 We can obtain the matrices $A_i=R_i A R_i^T$, where $R_i^T in RR^(n times n_i)$ is the prolongation matrix and $A_i in RR^(n_i times n_i)$ is the $A$ submatrix corresponding to the $Omega_i$ subdomain.
 ### Multiplicative Schwarz Method

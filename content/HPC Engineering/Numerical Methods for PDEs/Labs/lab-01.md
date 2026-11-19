@@ -23,7 +23,7 @@ $f in L^1(r)$
 $mu eq.def 1$ in ex.1
 $$
 a&:V times V -> RR space.quad space.quad & a(u,v) =integral_0^1 mu u' v' dif x \
-F&: V -> RR     &  d = integral_0^1 f v dif x 
+F&: V -> RR     &  F(v) = integral_0^1 f v dif x 
 $$
 
 > [!info] Weak formulation
@@ -35,12 +35,12 @@ $$
 Let $V_h subset.eq V$ finite dimensional space
 >[!info] Galerking formulation
 >Find $u_h in V_h$:
->$$a(u_a, v_a)=F(v_a) space.quad forall v_h in V_h$$
+>$$a(u_h, v_h)=F(v_h) space.quad forall v_h in V_h$$
 #### 1.3
 $N_(e l)$ sub intervals
 $k_c, c=1,..., N_(e l)$ are the elements/sub intervals
 $$
-X_h^r (r)={v_h in cal(C)^2(overline(r))) : v_h(x) in PP_r space forall x in K_c, c=1,...,N_(e l)}
+X_h^r (r)={v_h in cal(C)^2(overline(r)) : v_h(x) in PP_r space forall x in K_c, c=1,...,N_(e l)}
 $$
 $$
 V_h = X_h^r
@@ -79,3 +79,14 @@ $$
 $a(phi_1, phi_1)!=0$
 $a(phi_1, phi_2)!=0$
 $a(phi_1, phi_2)=0$, $j != 1,2$
+
+# Lab 02
+$$
+A_(i,j) <- integral_0^1 mu(x) phi_j (x) phi_i (x) dif x = \
+$$
+To compute this integral we use quadrature
+for $c = 1,...,N_(e l)$:
+$quad$ for $q=1,..., N_q$:
+$quad quad A_(i, j) <- A_(i, j)+ w_q^c mu(x_q^c) phi'_j (x_q^c) phi'_i (x_q^c)$
+
+Parte 2
