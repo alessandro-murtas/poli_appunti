@@ -62,6 +62,6 @@ tilde(b)_Gamma=b_Gamma - A_(I Gamma)^T A_(I I)^(-1) A_(I Gamma)
 $$
 Again this can be solved with iterative methods and after this we can compute
 $$
-x_I=A_(I I)^(-1)(b_I-A_(I Gamma)x_Gamma))
+x_I=A_(I I)^(-1)(b_I-A_(I Gamma)x_Gamma)
 $$
 Each occurrence of $A_(I I)^(-1)$ can be done in parallel since $A_(I I)$ is block diagonal.

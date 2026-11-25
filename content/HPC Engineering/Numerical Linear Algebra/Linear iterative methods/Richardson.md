@@ -20,10 +20,13 @@ $$
 $$
 The optimal value is
 $$
-alpha = 2 / (lambda min(A)+lambda max(A))
+alpha_(text("opt")) = 2 / (lambda min(A)+lambda max(A))
 $$
 ### Convergence for preconditioned method
 Given $A$ SPD, $P != I$ the method converges iff
 $$
-0 < alpha < 2/(lambda max(P^(-1)A)+lambda min(P^(-1)A))
+0 < alpha < 2/(lambda max(P^(-1)A))
+$$
+$$
+alpha_(o p t) = 2/(lambda max(P^(-1)A)+lambda min(P^(-1)A))
 $$
